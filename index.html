@@ -186,7 +186,7 @@
 const FIRMS = [
   {
     id:"taxolution", airtableId:"rec3zsPAHKsY517Uc", name:"Taxolution Advisory LLC", country:"Switzerland", flag:"🇨🇭", city:"Zug, CH",
-    status:"Under Review",
+    status:"Need MoU",
     about:"Founded in 2014, Taxolution is a four-advisor tax firm specializing in expats in Switzerland. It is the highest-rated Swiss tax firm on Google, with clients across the tech, pharma, and industrial sectors, and uses a custom CRM and client portal to process a high volume of cases efficiently.",
     idealClient:"Individuals living in Switzerland with international backgrounds and complex financial situations — ranging from newcomers with a single job and a couple of bank accounts, to people receiving RSUs with several bank and investment accounts and property abroad, to complex cases involving multi-jurisdiction equity vesting and cantonal tax rulings.",
     services:["Annual tax filing","Cross-border / expatriate tax","Equity Compensation - RSU/ISO/NSO/ESPP","Equity Compensation - Multi-jurisdiction equity apportionment","Business ownership / self-employment"],
@@ -343,7 +343,7 @@ const FIRMS = [
     whatToBring:"Varies by client need; the firm typically doesn't require much information in advance and discusses details during the call.",
     busySeason:"June – tax filing.",
     responseTime:"1 week",
-    pricingNote:"We usually work with fixed fees; hourly rate is EUR 150 (+21% VAT) where applicable.",
+    pricingNote:"We usually work with fixed fees; hourly rate is EUR 150 (+21% VAT) where applicable. Individual tax return preparation: €350–€650 + VAT.",
     website:"https://albeatax.com/"
   },
   {
@@ -401,21 +401,21 @@ const FIRMS = [
     website:"https://westmarktax.com/"
   },
   {
-    id:"copilot", airtableId:"reck2zCgmnR56DHzc", name:"CoPilot Tax LLP", country:"Canada", flag:"🇨🇦", city:"Fully remote",
-    status:"Need MoU",
-    about:"CoPilot Tax LLP is a Canadian tax planning and accounting firm that works with people remotely all across Canada. Its specialists focus on proactive tax planning and advice, not just filing returns.",
+    id:"copilot", airtableId:"reck2zCgmnR56DHzc", name:"CoPilot Tax", country:"Canada", flag:"🇨🇦", city:"Fully remote",
+    status:"Active",
+    about:"CoPilot Tax is a Canadian tax planning and accounting firm that works with people remotely all across Canada. Its specialists focus on proactive tax planning and advice, not just filing returns.",
     idealClient:"Canadians who hold stock options, RSUs, or ESPP shares and who also have other moving parts, such as a corporation, self-employment income, or a recent move into or out of Canada. The firm is a strong fit for people who want planning before they exercise or sell, not only a return after the fact.",
     services:["Equity Compensation - RSU/ISO/NSO/ESPP","Equity Compensation - Liquidity event planning (tender offer, IPO)","Business ownership / self-employment","Estate & wealth transfer planning"],
     languages:"English",
     years:"10",
     credentials:"CPA, CFP, and specialized tax training (CPA In Depth Tax program).",
     membership:"CPA, CFP.",
-    consultFee:"60 min 400 CAD",
+    consultFee:"60 min 500 CAD",
     consultProcess:"The initial call is free and used to understand the client's situation and scope (no advice given); paid consultations are available for clients seeking advice directly.",
     whatToBring:"1) Background of facts (age, family, province, etc); 2) Income details (sources of income and amount); 3) Equity comp details (if any) — i.e. RSU vesting, stock option details like strike price, market value, etc.",
     busySeason:"April – tax filing.",
     responseTime:"< 1 week",
-    pricingNote:"Generally, $2k to $4k for a tax strategy depending on complexity. We also offer paid calls at $400/hr.",
+    pricingNote:"Generally, $2k to $4k for a tax strategy depending on complexity. We also offer paid calls at $500/hr.",
     website:"https://copilottax.ca"
   },
   {
@@ -509,7 +509,7 @@ function renderSidebar(){
     g.firms.forEach(f=>{
       const item = document.createElement('button');
       item.className = 'firm-item' + (f.id===currentFirmId ? ' selected' : '');
-      const dotClass = f.status === 'Need MoU' ? 'mou' : '';
+      const dotClass = (f.status === 'Need MoU' || f.status === 'Active') ? 'mou' : '';
       item.innerHTML = `<span class="status-dot ${dotClass}"></span>${f.name}`;
       item.onclick = () => selectFirm(f.id, true);
       list.appendChild(item);
@@ -539,7 +539,7 @@ function renderDetail(){
   }
   const isInternal = currentView === 'internal';
   const badge = isInternal
-    ? `<span class="internal-badge ${f.status==='Need MoU'?'mou':''}">${f.status}</span>`
+    ? `<span class="internal-badge ${(f.status==='Need MoU'||f.status==='Active')?'mou':''}">${f.status}</span>`
     : '';
 
   detailEl.innerHTML = `

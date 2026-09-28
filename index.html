@@ -121,13 +121,18 @@
   .qf:last-child{ border-right:none; }
   .qf-full{ padding:13px 16px; border-top:1px solid var(--line); }
   .qf-grid:empty + .qf-full{ border-top:none; }
-  .qf .label{ font-size:11px; color:var(--muted); margin-bottom:4px; }
-  .qf .value{ font-size:13.5px; color:var(--ink); }
+  .qf .label, .qf-full .label{ font-size:11px; color:var(--muted); margin-bottom:4px; }
+  .qf .value, .qf-full .value{ font-size:13.5px; color:var(--ink); }
 
   section.block{ margin-bottom:30px; }
   section.block h3{ font-size:14px; font-weight:600; font-family:'IBM Plex Sans', sans-serif; color:var(--teal); margin:0 0 10px; padding-bottom:8px; border-bottom:1px solid var(--line); }
   section.block p{ margin:0 0 10px; color:var(--ink-soft); max-width:70ch; }
   .tag-row{ display:flex; flex-wrap:wrap; gap:7px; }
+
+  .pricing-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px; }
+  .pricing-item .pricing-head{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; font-size:13.5px; color:var(--ink); font-weight:600; }
+  .pricing-item .pricing-fee{ color:var(--teal); font-weight:600; white-space:nowrap; font-size:13px; }
+  .pricing-item .pricing-desc{ margin:4px 0 0; font-size:12.5px; color:var(--muted); }
   .tag{ font-size:12.5px; padding:4px 10px; border-radius:20px; background:var(--teal-soft); color:var(--teal); }
 
   .two-col{ display:grid; grid-template-columns:1fr 1fr; gap:26px; }
@@ -364,7 +369,12 @@ const FIRMS = [
     whatToBring:"Not specified",
     busySeason:"Mar-May – tax filing.",
     responseTime:"1 week",
-    pricingNote:"Tax Residency & Dutch Tax Situation Analysis — determines Dutch tax residency status for the client/family, provides a high-level overview of how all income/wealth sources are taxed in the Netherlands, and establishes a structuring timeline ahead of the IPO. Fee: €2,000–€3,500 ex VAT. Dynamic Modelling — builds a scenario model allowing the employee to input personal parameters to assess wealth tax impact across different investment choices. Fee: €5,000 ex VAT. Estate & Succession Planning — assists with drafting a will from a Dutch tax perspective, plus gift planning and trust-like structures; the firm recommends starting with a high-level overview of options. Fee: €1,250 ex VAT for the overview (full planning scoped separately). Compliance Support — assists with filing required tax returns; scope depends on the structuring decisions made above. Fee: ~€1,250 ex VAT per employee for personal income tax return filing.",
+    pricingItems:[
+      {name:"Tax Residency & Dutch Tax Situation Analysis", fee:"€2,000–€3,500 ex VAT", description:"Determines Dutch tax residency status for the client/family, provides a high-level overview of how all income/wealth sources are taxed in the Netherlands, and establishes a structuring timeline ahead of the IPO."},
+      {name:"Dynamic Modelling", fee:"€5,000 ex VAT", description:"Builds a scenario model allowing the employee to input personal parameters to assess wealth tax impact across different investment choices."},
+      {name:"Estate & Succession Planning", fee:"€1,250 ex VAT (overview only)", description:"Assists with drafting a will from a Dutch tax perspective, plus gift planning and trust-like structures; the firm recommends starting with a high-level overview before full planning is scoped separately."},
+      {name:"Compliance Support", fee:"~€1,250 ex VAT per employee", description:"Assists with filing required tax returns; scope depends on the structuring decisions made above."}
+    ],
     website:"https://www.archipeltaxadvice.nl"
   },
   {
@@ -566,10 +576,16 @@ function renderDetail(){
 
   const consultProcessP = hasValue(f.consultProcess) ? `<p>${f.consultProcess}</p>` : '';
   const pricingNoteP = hasValue(f.pricingNote) ? `<p style="color:var(--muted); font-size:13px;">${f.pricingNote}</p>` : '';
-  const hasConsultSection = hasValue(f.consultProcess) || hasValue(f.pricingNote);
+  const pricingItemsHTML = (f.pricingItems && f.pricingItems.length) ? `
+    <ul class="pricing-list">${f.pricingItems.map(item => `
+      <li class="pricing-item">
+        <div class="pricing-head"><span>${item.name}</span><span class="pricing-fee">${item.fee}</span></div>
+        ${item.description ? `<p class="pricing-desc">${item.description}</p>` : ''}
+      </li>`).join('')}</ul>` : '';
+  const hasConsultSection = hasValue(f.consultProcess) || hasValue(f.pricingNote) || pricingItemsHTML;
   const hasBringSection = hasValue(f.whatToBring);
 
-  const consultSection = hasConsultSection ? `<section class="block"><h3>Consultation & fees</h3>${consultProcessP}${pricingNoteP}</section>` : '';
+  const consultSection = hasConsultSection ? `<section class="block"><h3>Consultation & fees</h3>${consultProcessP}${pricingItemsHTML || pricingNoteP}</section>` : '';
   const bringSection = hasBringSection ? `<section class="block"><h3>Good to bring to the first call</h3><p>${f.whatToBring}</p></section>` : '';
 
   let twoColHTML = '';

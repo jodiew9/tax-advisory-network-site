@@ -226,7 +226,13 @@ const FIRMS = [
     whatToBring:"Employment agreement or offer letter, prior-year US and Korean tax returns, income and withholding statements, capital gains reports if applicable, FBAR/FATCA foreign account details, and equity grant and vesting schedules.",
     busySeason:"May – tax filing.",
     responseTime:"2-3 weeks",
-    pricingNote:"30-min: KRW 220,000 (USD 160); 60-min: KRW 440,000 (USD 320); 5-Hour Package: KRW 2,000,000 total (~KRW 400,000/hr, valid 12 months). Individual filing: KRW 900,000-2,400,000 depending on complexity.",
+    pricingNote:"Not specified",
+    pricingItems:[
+      {name:"30-minute consultation", fee:"KRW 220,000 (≈ USD 160)"},
+      {name:"60-minute consultation", fee:"KRW 440,000 (≈ USD 320)"},
+      {name:"5-hour package", fee:"KRW 2,000,000 total (~KRW 400,000/hr, valid 12 months)"},
+      {name:"Individual filing", fee:"KRW 900,000–2,400,000", description:"Depending on complexity."}
+    ],
     website:"https://www.taxinkorea.com",
     privacyPolicy:"Not specified"
   },
@@ -278,12 +284,12 @@ const FIRMS = [
     years:"20",
     credentials:"Certified tax advisor in Germany (Steuerberater), registered CPA firm.",
     membership:"Member of the Deutsche Steuerberatergesellschaft.",
-    consultFee:"30 min 160 EUR + VAT",
+    consultFee:"30 min €160 + VAT",
     consultProcess:"The initial 15-minute call, covering the scope and method of the firm's services, is free; prospective clients start by filling in a form on the firm's website.",
     whatToBring:"Any questions about the scope of services.",
     busySeason:"July – self file. Feb – advisor-assisted file.",
     responseTime:"1-2 weeks",
-    pricingNote:"1000-2000 EUR, depending on the individual situation and complexity. Consultations with our tax advisor: 160 EUR/30 minute call.",
+    pricingNote:"Fees start at €1,000–€2,000, depending on the individual situation and complexity. Consultations with our tax advisor are €160 per 30-minute call (+ VAT).",
     website:"http://www.prinz.tax",
     privacyPolicy:"https://prinz.tax/privacy-policy/"
   },
@@ -302,7 +308,7 @@ const FIRMS = [
     whatToBring:"A concise summary of relevant countries, relocation or residency timeline, key assets and investments, and the specific Australian tax issues requiring advice, along with any prior tax returns or advice where available.",
     busySeason:"Nov-Dec – tax filing.",
     responseTime:"1 week",
-    pricingNote:"Services are generally provided on a fixed-fee basis, with fees agreed in advance based on the scope and complexity of the matter. Cross-border advisory engagements commonly commence from approximately A$1,500–A$2,000, with more complex or multi-jurisdictional matters priced according to the work required.",
+    pricingNote:"Services are generally provided on a fixed-fee basis, with fees agreed in advance based on the scope and complexity of the matter. Cross-border advisory engagements commonly commence from approximately AUD 1,500–AUD 2,000, with more complex or multi-jurisdictional matters priced according to the work required.",
     website:"https://www.worldwideadvisory.au",
     privacyPolicy:"Not specified"
   },
@@ -316,12 +322,12 @@ const FIRMS = [
     years:"12",
     credentials:"FCA Chartered Accountant. Irish Tax Institute. TEP Trust & Estate Practitioner. Society of Trust & Estate Practitioners (STEP).",
     membership:"Chartered Accountants Ireland AITI / CTA Chartered Tax Advisor.",
-    consultFee:"60 min 195 EUR + VAT",
-    consultProcess:"Consultations are paid, offered in one-hour sessions.",
+    consultFee:"60 min €195 + VAT",
+    consultProcess:"Not specified",
     whatToBring:"Not specified",
     busySeason:"Oct/Nov – tax filing.",
     responseTime:"1-2 weeks",
-    pricingNote:"€195 plus VAT (i.e. €239.85 incl VAT).",
+    pricingNote:"Consultations are €195/hour (+ VAT), available in person, by phone, or via Zoom.",
     website:"https://www.taxsmart.ie",
     privacyPolicy:"Not specified"
   },
@@ -335,12 +341,12 @@ const FIRMS = [
     years:"30",
     credentials:"Chartered Tax Advisers.",
     membership:"Italy",
-    consultFee:"60 min 350 EUR + VAT",
-    consultProcess:"The initial 30-minute consultation is free; video calls thereafter are billed at €350/hour.",
+    consultFee:"60 min €350 + VAT",
+    consultProcess:"The initial 30-minute consultation is free; consultations thereafter are €350/hour (+ VAT). A flat fee is also available, depending on complexity.",
     whatToBring:"The firm aims to understand the client's needs and make a strategic assessment aligned with their long-term goals.",
     busySeason:"September – tax filing.",
     responseTime:"1 week",
-    pricingNote:"Hourly fee of 350 euro; flat fee depends on complexity.",
+    pricingNote:"Not specified",
     website:"https://www.fatcacittadiniamericani.com/",
     privacyPolicy:"https://www.studiodotcom.it/privacy/"
   },
@@ -354,12 +360,12 @@ const FIRMS = [
     years:"6",
     credentials:"No specific certification is required for tax advisory in Spain; both partners hold a university degree.",
     membership:"Not specified",
-    consultFee:"60 min 150 EUR + VAT",
-    consultProcess:"The initial consultation is paid — a 30-minute video call (€90, VAT included), with meeting notes always sent afterward.",
+    consultFee:"60 min €150 + VAT",
+    consultProcess:"A 30-minute initial consultation is €90 (VAT included), with meeting notes always provided.",
     whatToBring:"Varies by client need; the firm typically doesn't require much information in advance and discusses details during the call.",
     busySeason:"June – tax filing.",
     responseTime:"1 week",
-    pricingNote:"We usually work with fixed fees; hourly rate is EUR 150 (+21% VAT) where applicable. Individual tax return preparation: €350–€650 + VAT.",
+    pricingNote:"The firm usually works with fixed fees; the hourly rate is €150 (+ VAT) where applicable. Individual tax return preparation: €350–€650 + VAT.",
     website:"https://albeatax.com/",
     privacyPolicy:"https://albeatax.com/en/privacy-policy"
   },
@@ -373,7 +379,7 @@ const FIRMS = [
     years:"10",
     credentials:"All advisors are members of the Dutch association of tax advisors and hold at least a master's degree in tax law or tax economics.",
     membership:"NOB/AFM.",
-    consultFee:"1,250-5,000 EUR + VAT",
+    consultFee:"€1,250–€5,000 + VAT",
     consultProcess:"The initial 30-minute consultation is free.",
     whatToBring:"Not specified",
     busySeason:"Mar-May – tax filing.",
@@ -421,7 +427,7 @@ const FIRMS = [
     whatToBring:"Not specified",
     busySeason:"April – tax filing.",
     responseTime:"1-2 weeks",
-    pricingNote:"Initial individual tax advisory consultations are generally provided on a flat-fee basis, typically ranging from $1,000–$2,000, depending on complexity. Additional advisory work and U.S./Canadian tax return preparation are scoped and priced separately based on the individual's circumstances.",
+    pricingNote:"Initial individual tax advisory consultations are generally provided on a flat-fee basis, typically ranging from CAD 1,000–CAD 2,000, depending on complexity. Additional advisory work and U.S./Canadian tax return preparation are scoped and priced separately based on the individual's circumstances.",
     website:"https://westmarktax.com/",
     privacyPolicy:"Not specified"
   },
@@ -440,7 +446,7 @@ const FIRMS = [
     whatToBring:"1) Background of facts (age, family, province, etc); 2) Income details (sources of income and amount); 3) Equity comp details (if any) — i.e. RSU vesting, stock option details like strike price, market value, etc.",
     busySeason:"April – tax filing.",
     responseTime:"< 1 week",
-    pricingNote:"Generally, $2k to $4k for a tax strategy depending on complexity. We also offer paid calls at $500/hr.",
+    pricingNote:"Generally, CAD 2,000 to CAD 4,000 for a tax strategy depending on complexity. Paid calls are also available at CAD 500/hr.",
     website:"https://copilottax.ca",
     privacyPolicy:"Not specified"
   },
@@ -454,12 +460,12 @@ const FIRMS = [
     years:"20",
     credentials:"Member of Taxation Institute. AITI, QFA.",
     membership:"Taxation Institute.",
-    consultFee:"60 min 200 EUR + VAT",
-    consultProcess:"Consultations are paid (€200), available in person, by phone, or via Zoom.",
+    consultFee:"60 min €200 + VAT",
+    consultProcess:"Consultations are available in person, by phone, or via Zoom.",
     whatToBring:"Sources of income and any anticipated changes.",
     busySeason:"Oct/Nov – tax filing.",
     responseTime:"1-2 weeks",
-    pricingNote:"Typical range 1000 euro - 6000 euro.",
+    pricingNote:"Fees typically range from €1,000–€6,000 (+ VAT), depending on complexity. Consultations are €200 per hour (+ VAT).",
     website:"http://www.jbyrneassoc.ie",
     privacyPolicy:"Not specified"
   }
@@ -589,7 +595,7 @@ function renderDetail(){
     </section>` : '';
 
   const consultProcessP = hasValue(f.consultProcess) ? `<p>${f.consultProcess}</p>` : '';
-  const pricingNoteP = hasValue(f.pricingNote) ? `<p style="color:var(--muted); font-size:13px;">${f.pricingNote}</p>` : '';
+  const pricingNoteP = hasValue(f.pricingNote) ? `<p>${f.pricingNote}</p>` : '';
   const pricingItemsHTML = (f.pricingItems && f.pricingItems.length) ? `
     <ul class="pricing-list">${f.pricingItems.map(item => `
       <li class="pricing-item">

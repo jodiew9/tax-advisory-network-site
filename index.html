@@ -52,7 +52,7 @@
   }
   h1,h2,h3,.serif{ font-family:'Newsreader', ui-serif, Georgia, serif; font-weight:500; letter-spacing:-0.01em; }
 
-  .app{ max-width:1280px; margin:0 auto; min-height:100vh; display:flex; flex-direction:column; }
+  .app{ max-width:1280px; margin:0 auto; height:100vh; height:100dvh; display:flex; flex-direction:column; overflow:hidden; }
 
   header.topbar{
     padding:22px 28px 18px; border-bottom:1px solid var(--line);
@@ -118,6 +118,7 @@
   .quickfacts{ display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); border:1px solid var(--line); border-radius:var(--radius); margin-bottom:30px; overflow:hidden; }
   .qf{ padding:13px 16px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
   .qf:last-child{ border-right:none; }
+  .qf:nth-child(5){ grid-column:1 / -1; }
   .qf .label{ font-size:11px; color:var(--muted); margin-bottom:4px; }
   .qf .value{ font-size:13.5px; color:var(--ink); }
 
@@ -417,24 +418,6 @@ const FIRMS = [
     responseTime:"< 1 week",
     pricingNote:"Generally, $2k to $4k for a tax strategy depending on complexity. We also offer paid calls at $500/hr.",
     website:"https://copilottax.ca"
-  },
-  {
-    id:"kayano", airtableId:"recmGSWyVfYcyOG8g", name:"Kayano International Tax and Accounting Office", country:"Japan", flag:"🇯🇵", city:"Shinagawa, Tokyo",
-    status:"Under Review",
-    about:"Kayano International Tax Accounting Office was founded in October 2020 by representative Takaaki Kayano, based in Shinagawa Ward, Tokyo. Prior to founding the firm, Kayano spent over 7 years at EY's Japan tax practice (New Japan Ernst & Young Tax Accountants Corporation, now EY Tax Accountants Corporation), working in both the Tokyo and Düsseldorf offices. His work there included corporate and consumption tax filing for foreign companies and consolidated tax filing for major Japanese companies, including on-site support at a major Dutch semiconductor manufacturer and a major Japanese telecommunications company; he left EY at the level of Manager. The firm operates as a fully remote practice and is affiliated with Higashi Gotanda Accounting LLC and ESNext Tax Accountants Corporation, with an advisor attorney (Hirotoshi Kaino, Sakai Law Office) for matters requiring legal coordination.",
-    idealClient:"Members with equity compensation (RSUs, ESPPs, stock options) who are Japan tax residents or non-permanent residents, especially those with cross-border complexity given the representative's direct EY background in cross-border corporate and individual tax work. Also a good fit for foreign nationals in Japan needing English-language support, and members with inheritance, gift, or estate tax needs requiring coordination with affiliated legal partners.",
-    services:["Equity Compensation - RSU/ISO/NSO/ESPP","Equity Compensation - Liquidity event planning (tender offer, IPO)","Cross-border / expatriate tax","Annual tax filing","Equity Compensation - Multi-jurisdiction equity apportionment","Foreign account reporting"],
-    languages:"English, Japanese",
-    years:"15",
-    credentials:"Licensed Tax Accountant (Zeirishi), registered with the Tokyo Certified Public Tax Accountants Association, Shinagawa Branch. Nissho Bookkeeping Examination, Level 1. Licensed Real Estate Agent. Certified Management Innovation Support Institution (認定経営革新等支援機関). TOEIC score: 825.",
-    membership:"Tokyo Certified Public Tax Accountants Association, Shinagawa Branch.",
-    consultFee:"30 min 20,000 JPY",
-    consultProcess:"Consultations are paid, at JPY 20,000 plus consumption tax per 30 minutes; individual tax return preparation starts at JPY 180,000 plus consumption tax.",
-    whatToBring:"Not specified",
-    busySeason:"Mid Feb – mid March – tax filing.",
-    responseTime:"< 1 week",
-    pricingNote:"JPY 20,000 per 30 minutes.",
-    website:"https://www.kyno-office.com/en/"
   },
   {
     id:"jbyrne", airtableId:"recqkGk6Zlvfo8iw4", name:"Jacqueline Byrne & Associates", country:"Ireland", flag:"🇮🇪", city:"Dublin and Kildare",

@@ -115,10 +115,12 @@
   .internal-badge{ font-size:11.5px; padding:3px 9px; border-radius:20px; background:var(--amber-soft); color:var(--amber); white-space:nowrap; border:1px solid var(--amber); }
   .internal-badge.mou{ background:var(--teal-soft); color:var(--teal); border-color:var(--teal); }
 
-  .quickfacts{ display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); border:1px solid var(--line); border-radius:var(--radius); margin-bottom:30px; overflow:hidden; }
+  .quickfacts{ border:1px solid var(--line); border-radius:var(--radius); margin-bottom:30px; overflow:hidden; }
+  .qf-grid{ display:grid; grid-template-columns:repeat(auto-fit, minmax(150px,1fr)); }
   .qf{ padding:13px 16px; border-right:1px solid var(--line); border-bottom:1px solid var(--line); }
   .qf:last-child{ border-right:none; }
-  .qf:nth-child(5){ grid-column:1 / -1; }
+  .qf-full{ padding:13px 16px; border-top:1px solid var(--line); }
+  .qf-grid:empty + .qf-full{ border-top:none; }
   .qf .label{ font-size:11px; color:var(--muted); margin-bottom:4px; }
   .qf .value{ font-size:13.5px; color:var(--ink); }
 
@@ -200,7 +202,7 @@ const FIRMS = [
     whatToBring:"Little preparation is needed — a simple timeline of Swiss registration, employment start date, and other relevant dates helps the firm confirm tax residency, which usually comes up naturally during the call.",
     busySeason:"March, April, and sometimes July and September, when delivery time can run 1-2 weeks instead of the usual turnaround — still much faster than the industry standard.",
     responseTime:"> 1 week",
-    pricingNote:"Start: 700 / Average 1400-1800 / 2000+ for large volume cases. (Currency not stated in the source record.)",
+    pricingNote:"Start: CHF 700 / Average CHF 1,400–1,800 / CHF 2,000+ for large volume cases.",
     website:"https://www.taxolution.ch"
   },
   {
@@ -444,6 +446,12 @@ function normalize(s){
   return (s || '').toLowerCase().replace(/[^a-z0-9]/g, '');
 }
 
+function hasValue(v){
+  if(!v) return false;
+  const t = v.trim();
+  return t !== '' && t.toLowerCase() !== 'not specified';
+}
+
 // ---------- render ----------
 const app = document.getElementById('app');
 const groupsEl = document.getElementById('countryGroups');
@@ -525,6 +533,60 @@ function renderDetail(){
     ? `<span class="internal-badge ${(f.status==='Need MoU'||f.status==='Active')?'mou':''}">${f.status}</span>`
     : '';
 
+  const shortFacts = [];
+  if(hasValue(f.years)) shortFacts.push(['Years of experience', f.years]);
+  if(hasValue(f.responseTime)) shortFacts.push(['Time to schedule a meeting', f.responseTime]);
+  if(hasValue(f.languages)) shortFacts.push(['Languages', f.languages]);
+  if(hasValue(f.consultFee)) shortFacts.push(['Typical consultation', f.consultFee]);
+  const membershipValue = hasValue(f.membership) ? f.membership.replace(/\.\s*$/, '') : null;
+
+  const quickfactsHTML = (shortFacts.length || membershipValue) ? `
+    <div class="quickfacts">
+      <div class="qf-grid">${shortFacts.map(([label,value])=>`<div class="qf"><div class="label">${label}</div><div class="value">${value}</div></div>`).join('')}</div>
+      ${membershipValue ? `<div class="qf-full"><div class="label">Professional membership</div><div class="value">${membershipValue}</div></div>` : ''}
+    </div>` : '';
+
+  const aboutHTML = hasValue(f.about) ? `
+    <section class="block">
+      <h3>About the firm</h3>
+      <p>${f.about}</p>
+    </section>` : '';
+
+  const bestFitHTML = hasValue(f.idealClient) ? `
+    <section class="block">
+      <h3>Best fit for</h3>
+      <p>${f.idealClient}</p>
+    </section>` : '';
+
+  const servicesHTML = (f.services && f.services.length) ? `
+    <section class="block">
+      <h3>What they help with</h3>
+      <div class="tag-row">${f.services.map(s=>`<span class="tag">${s}</span>`).join('')}</div>
+    </section>` : '';
+
+  const consultProcessP = hasValue(f.consultProcess) ? `<p>${f.consultProcess}</p>` : '';
+  const pricingNoteP = hasValue(f.pricingNote) ? `<p style="color:var(--muted); font-size:13px;">${f.pricingNote}</p>` : '';
+  const hasConsultSection = hasValue(f.consultProcess) || hasValue(f.pricingNote);
+  const hasBringSection = hasValue(f.whatToBring);
+
+  const consultSection = hasConsultSection ? `<section class="block"><h3>Consultation & fees</h3>${consultProcessP}${pricingNoteP}</section>` : '';
+  const bringSection = hasBringSection ? `<section class="block"><h3>Good to bring to the first call</h3><p>${f.whatToBring}</p></section>` : '';
+
+  let twoColHTML = '';
+  if(hasConsultSection && hasBringSection){
+    twoColHTML = `<div class="two-col">${consultSection}${bringSection}</div>`;
+  } else {
+    twoColHTML = consultSection + bringSection;
+  }
+
+  const credentialsHTML = hasValue(f.credentials) ? `
+    <section class="block">
+      <h3>Credentials</h3>
+      <p>${f.credentials}</p>
+    </section>` : '';
+
+  const websiteHTML = hasValue(f.website) ? `<p style="margin-top:6px;"><a class="website-link" href="${f.website}" target="_blank" rel="noopener">Visit firm website ↗</a></p>` : '';
+
   detailEl.innerHTML = `
     <button class="back-btn" id="backBtn">‹ Back to firms</button>
     <div class="firm-head">
@@ -537,47 +599,13 @@ function renderDetail(){
       ${badge}
     </div>
 
-    <div class="quickfacts">
-      <div class="qf"><div class="label">Years of experience</div><div class="value">${f.years}</div></div>
-      <div class="qf"><div class="label">Time to schedule a meeting</div><div class="value">${f.responseTime}</div></div>
-      <div class="qf"><div class="label">Languages</div><div class="value">${f.languages}</div></div>
-      <div class="qf"><div class="label">Typical consultation</div><div class="value">${f.consultFee}</div></div>
-      <div class="qf"><div class="label">Professional membership</div><div class="value">${f.membership.replace(/\.\s*$/, '')}</div></div>
-    </div>
-
-    <section class="block">
-      <h3>About the firm</h3>
-      <p>${f.about}</p>
-    </section>
-
-    <section class="block">
-      <h3>Best fit for</h3>
-      <p>${f.idealClient}</p>
-    </section>
-
-    <section class="block">
-      <h3>What they help with</h3>
-      <div class="tag-row">${f.services.map(s=>`<span class="tag">${s}</span>`).join('')}</div>
-    </section>
-
-    <div class="two-col">
-      <section class="block">
-        <h3>Consultation & fees</h3>
-        <p>${f.consultProcess}</p>
-        <p style="color:var(--muted); font-size:13px;">${f.pricingNote}</p>
-      </section>
-      <section class="block">
-        <h3>Good to bring to the first call</h3>
-        <p>${f.whatToBring}</p>
-      </section>
-    </div>
-
-    <section class="block">
-      <h3>Credentials</h3>
-      <p>${f.credentials}</p>
-    </section>
-
-    <p style="margin-top:6px;"><a class="website-link" href="${f.website}" target="_blank" rel="noopener">Visit firm website ↗</a></p>
+    ${quickfactsHTML}
+    ${aboutHTML}
+    ${bestFitHTML}
+    ${servicesHTML}
+    ${twoColHTML}
+    ${credentialsHTML}
+    ${websiteHTML}
   `;
 
   const back = document.getElementById('backBtn');

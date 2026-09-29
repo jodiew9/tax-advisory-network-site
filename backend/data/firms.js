@@ -264,7 +264,7 @@ module.exports = [
     "responseTime": "1 week",
     "pricingNote": "Not specified",
     "website": "https://www.fatcacittadiniamericani.com/",
-    "privacyPolicy": "https://www.studiodotcom.it/privacy/"
+    "privacyPolicy": "Not specified"
   },
   {
     "id": "albeatax",

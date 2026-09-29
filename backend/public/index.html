@@ -95,6 +95,10 @@
   .pricing-item .pricing-fee{ color:var(--teal); font-weight:600; white-space:nowrap; font-size:13px; }
   .pricing-item .pricing-desc{ margin:4px 0 0; font-size:12.5px; color:var(--muted); }
 
+  .credentials-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
+  .credentials-list li{ font-size:13.5px; color:var(--ink-soft); padding-left:14px; position:relative; }
+  .credentials-list li::before{ content:"–"; position:absolute; left:0; color:var(--teal); }
+
   ::-webkit-scrollbar{ width:9px; }
   ::-webkit-scrollbar-thumb{ background:var(--line); border-radius:10px; }
 </style>
@@ -209,10 +213,13 @@ function renderDetail(){
     twoColHTML = consultSection + bringSection;
   }
 
-  const credentialsHTML = hasValue(f.credentials) ? `
+  const credentialsListHTML = (f.credentialsList && f.credentialsList.length)
+    ? `<ul class="credentials-list">${f.credentialsList.map(c => `<li>${c}</li>`).join('')}</ul>`
+    : '';
+  const credentialsHTML = (credentialsListHTML || hasValue(f.credentials)) ? `
     <section class="block">
       <h3>Credentials</h3>
-      <p>${f.credentials}</p>
+      ${credentialsListHTML || `<p>${f.credentials}</p>`}
     </section>` : '';
 
   const websiteHTML = hasValue(f.website) ? `<p style="margin-top:6px;"><a class="website-link" href="${f.website}" target="_blank" rel="noopener">Visit firm website ↗</a></p>` : '';

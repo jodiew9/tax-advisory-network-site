@@ -230,7 +230,7 @@ function renderDetail(){
       <div>
         <h2>${f.name}</h2>
         <div class="firm-meta">
-          <span class="flag">${f.flag}</span><span>${f.city}, ${f.country}</span>
+          <span class="flag">${f.flag}</span><span>${f.city}, ${f.country}${f.locationSuffix ? ' ' + f.locationSuffix : ''}</span>
         </div>
       </div>
     </div>

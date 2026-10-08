@@ -201,39 +201,6 @@ module.exports = [
     "privacyPolicy": "Not specified"
   },
   {
-    "id": "taxsmart",
-    "airtableId": "recI8DcWHvjmZBS7D",
-    "name": "TaxSmart Ltd",
-    "country": "Ireland",
-    "flag": "🇮🇪",
-    "city": "Dublin city centre",
-    "status": "Need MoU",
-    "about": "TaxSmart was established in 2016 and, together with its sister accountancy practice C. Maxwell & Associates (established in the early 1990s), has over 80 years of combined tax experience. The firm specializes in personal tax matters from both an advisory and compliance perspective.",
-    "idealClient": "Works extensively with Irish-resident employees of large multinational tech companies, handling Irish tax reporting on share-based remuneration and holdings in the US or other jurisdictions, including advice on available reliefs and a broader review of tax efficiency.",
-    "services": [
-      "Equity Compensation - RSU/ISO/NSO/ESPP",
-      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
-      "Equity Compensation - Multi-jurisdiction equity apportionment",
-      "Annual tax filing",
-      "Cross-border / expatriate tax",
-      "Foreign account reporting",
-      "Estate & wealth transfer planning",
-      "Business ownership / self-employment"
-    ],
-    "languages": "English",
-    "years": "12",
-    "credentials": "FCA Chartered Accountant, Irish Tax Institute, TEP Trust & Estate Practitioner, Society of Trust & Estate Practitioners (STEP)",
-    "membership": "Chartered Accountants Ireland AITI / CTA Chartered Tax Advisor.",
-    "consultFee": "60 min €195 + VAT",
-    "consultProcess": "Not specified",
-    "whatToBring": "Not specified",
-    "busySeason": "Oct/Nov – tax filing.",
-    "responseTime": "1-2 weeks",
-    "pricingNote": "Consultations are €195/hour (+ VAT), available in person, by phone, or via Zoom.",
-    "website": "https://www.taxsmart.ie",
-    "privacyPolicy": "Not specified"
-  },
-  {
     "id": "dottcomm",
     "airtableId": "recP2CYGMTjDHMk5x",
     "name": "Studio DottComm",
@@ -258,7 +225,7 @@ module.exports = [
     "credentials": "Chartered Tax Advisers",
     "membership": "Italy",
     "consultFee": "60 min €350 + VAT",
-    "consultProcess": "The initial 30-minute consultation is free; consultations thereafter are €350/hour (+ VAT). A flat fee is also available, depending on complexity.",
+    "consultProcess": "The initial 30-minute consultation is free; consultations thereafter are €350/hour (+ VAT). A flat fee is also available, depending on complexity. Individual tax return preparation: €1,000–€1,800.",
     "whatToBring": "The firm aims to understand the client's needs and make a strategic assessment aligned with their long-term goals.",
     "busySeason": "September – tax filing.",
     "responseTime": "1 week",
@@ -446,30 +413,108 @@ module.exports = [
     "privacyPolicy": "Not specified"
   },
   {
-    "id": "jbyrne",
-    "airtableId": "recqkGk6Zlvfo8iw4",
-    "name": "Jacqueline Byrne & Associates",
+    "id": "gallagherkeane",
+    "airtableId": "rec4k0D3jaCqs7xrM",
+    "name": "Gallagher Keane Limited",
     "country": "Ireland",
     "flag": "🇮🇪",
-    "city": "Dublin and Kildare",
+    "city": "30 Upper Fitzwilliam Street, Dublin 2",
     "status": "Need MoU",
-    "about": "Jacqueline Byrne & Associates was founded 15 years ago as a small business dealing primarily with personal tax.",
-    "idealClient": "Straightforward, single-country filers with Irish tax needs.",
+    "about": "Gallagher Keane was founded in 2009 and is a two-partner firm owned by Conor Gallagher and Colin Keane, both qualified Chartered Accountants (Conor qualified with Deloitte and Colin with KPMG, both in 2003). The firm has 16 employees, most of them qualified accountants, with some currently sitting their final exams. Its areas of expertise are outsourced financial management, corporation tax, and personal tax.",
+    "idealClient": "Gallagher Keane best serves straightforward single-country filers. The firm currently works with a number of Ireland-based corporations who recommend it to their employees for personal tax returns.",
     "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Business ownership / self-employment",
       "Annual tax filing",
-      "Business ownership / self-employment"
+      "Foreign account reporting"
+    ],
+    "languages": "English, Hungarian, Russian, Ukrainian, Mandarin Chinese, Lithuanian, Croatian, Brazilian Portuguese, Serbian, Bosnian",
+    "years": "17",
+    "credentials": "Chartered Accountants",
+    "membership": "Chartered Accountants Ireland",
+    "consultFee": "Fee based – €500–€1,000 + VAT",
+    "consultProcess": "The initial consultation is free, usually a 15–20 minute Teams session with a senior manager.",
+    "whatToBring": "Equity information received from the company, payslips with share/RSU/ESPP information, and the final payslip of the reporting year (for 2026, the December 2026 payslip).",
+    "busySeason": "October/November – tax filing.",
+    "responseTime": "1 week",
+    "pricingNote": "Flat fee per tax return ranging from €500–€1,000 + VAT, depending on complexity.",
+    "website": "https://www.gallagherkeane.ie",
+    "privacyPolicy": "https://portal.gallagherkeane.ie/registration/V2pSOv5KqL1ypVqZ3xzUs7ydQAsf3fxf0Pp0yb1UXFDWGXWswNAcNCA"
+  },
+  {
+    "id": "shreyarao",
+    "airtableId": "recbFtcDcwe0S1k6T",
+    "name": "Shreya Rao and Associates",
+    "country": "India",
+    "flag": "🇮🇳",
+    "city": "Bangalore",
+    "status": "Active",
+    "about": "Shreya Rao and Associates was set up in January 2024 as a boutique Indian law practice specializing in cross-border tax and private client work. Over 85% of its work is cross-border, with a particular focus on clients connected to the US, UK, Middle East, and Singapore. The firm represents several marquee clients, including individuals on the Forbes India 100 Rich List, leading entrepreneurs and celebrities, and the institutions that work with them. It was named Boutique Legal Firm of the Year at the STEP Private Client Awards 2026, and its partner, Shreya Rao, is ranked Band 1 for Private Client Work by the Chambers HNW Guide, is an ACTEC International Fellow, and was a founding member of STEP in India.",
+    "idealClient": "The firm specializes in high-complexity cross-border cases for ultra-high-net-worth clients receiving, holding, or transacting in equity incentives. These clients are generally founders or C-suite employees with substantial equity stakes, frequently with connections to the US, UK, Middle East, or Singapore. The firm assists them with legal, tax, and regulatory support in relation to Indian legal issues.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning"
     ],
     "languages": "English",
-    "years": "20",
-    "credentials": "Member of Taxation Institute, AITI, QFA",
-    "membership": "Taxation Institute.",
-    "consultFee": "60 min €200 + VAT",
-    "consultProcess": "Consultations are available in person, by phone, or via Zoom.",
-    "whatToBring": "Sources of income and any anticipated changes.",
-    "busySeason": "Oct/Nov – tax filing.",
+    "years": "Not specified",
+    "credentials": "Shreya Rao – Bar Council of Maharashtra and Goa (Enrollment No. 048843)",
+    "membership": "Bar Council of India",
+    "consultFee": "60 min 300–450 USD",
+    "consultProcess": "Hourly rates depend on seniority level.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
     "responseTime": "1-2 weeks",
-    "pricingNote": "Fees typically range from €1,000–€6,000 (+ VAT), depending on complexity. Consultations are €200 per hour (+ VAT).",
-    "website": "http://www.jbyrneassoc.ie",
+    "pricingNote": "Not specified",
+    "pricingItems": [
+      {
+        "name": "Partner",
+        "fee": "USD 450/hour"
+      },
+      {
+        "name": "Of Counsel",
+        "fee": "USD 400/hour"
+      },
+      {
+        "name": "Senior Associates",
+        "fee": "USD 265–300/hour"
+      },
+      {
+        "name": "Associates",
+        "fee": "USD 160–185/hour"
+      }
+    ],
+    "website": "https://www.linkedin.com/company/sra-law/",
     "privacyPolicy": "Not specified"
+  },
+  {
+    "id": "expandcpa",
+    "airtableId": "recqJgAmXUtiRfwDu",
+    "name": "Expand CPA",
+    "country": "France",
+    "flag": "🇫🇷",
+    "city": "Paris",
+    "status": "Active",
+    "about": "Expand CPA is an accounting and tax advisory firm specializing in international mobility and cross-border taxation, with particular expertise in French tax matters. The firm supports individuals, executives, entrepreneurs, and internationally mobile families relocating to France from any country, as well as clients with ongoing international income, assets, or investments while residing in France. For outbound mobility from France, it has in-house U.S. tax expertise through its team of U.S. Certified Public Accountants. The team includes French chartered accountants (Experts-Comptables) and U.S. CPAs and operates internationally.",
+    "idealClient": "Internationally mobile individuals, executives, entrepreneurs, and families with French tax exposure. The firm is particularly well suited to individuals relocating to France from any jurisdiction who need help with French tax residency, compliance, investments, compensation, real estate, wealth taxation, or other cross-border matters. For individuals relocating from France to the United States, or otherwise subject to both French and U.S. taxation, Expand CPA can provide integrated French and U.S. tax support.",
+    "services": [
+      "Annual tax filing",
+      "Foreign account reporting",
+      "Cross-border / expatriate tax",
+      "Equity Compensation - RSU/ISO/NSO/ESPP"
+    ],
+    "languages": "French, English",
+    "years": "7",
+    "credentials": "French Expert-Comptable, U.S. Certified Public Accountant (CPA – Montana), IRS Certifying Acceptance Agent (CAA), Commissaire aux Comptes",
+    "membership": "Not specified",
+    "consultFee": "Not specified",
+    "consultProcess": "Paid initial consultation, typically 60 minutes.",
+    "whatToBring": "Most recent French and/or U.S. tax returns, details of tax residency and relocation dates, income information, ownership interests in companies or partnerships, investment and retirement account information, details of foreign bank accounts and financial assets, and any relevant correspondence from French or U.S. tax authorities.",
+    "busySeason": "March–May: French and U.S. individual tax filing season. September–October 15: U.S. extended filing deadline period.",
+    "responseTime": "1 week",
+    "pricingNote": "Fees are generally fixed based on the scope and complexity of the engagement. More complex cross-border engagements are quoted individually following an initial review.",
+    "website": "https://www.expand-cpa.com",
+    "privacyPolicy": "Not specified",
+    "locationSuffix": "(also Miami, Florida and Tel Aviv)"
   }
 ];

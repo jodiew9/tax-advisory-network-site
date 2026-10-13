@@ -507,14 +507,59 @@ module.exports = [
     "years": "7",
     "credentials": "French Expert-Comptable, U.S. Certified Public Accountant (CPA – Montana), IRS Certifying Acceptance Agent (CAA), Commissaire aux Comptes",
     "membership": "Not specified",
-    "consultFee": "Not specified",
-    "consultProcess": "Paid initial consultation, typically 60 minutes.",
+    "consultFee": "30 min €250 + VAT",
+    "consultProcess": "Starting prices below exclude VAT. Fees are generally fixed based on the scope and complexity of the engagement; other services and more complex cross-border engagements are quoted individually following an initial review.",
     "whatToBring": "Most recent French and/or U.S. tax returns, details of tax residency and relocation dates, income information, ownership interests in companies or partnerships, investment and retirement account information, details of foreign bank accounts and financial assets, and any relevant correspondence from French or U.S. tax authorities.",
     "busySeason": "March–May: French and U.S. individual tax filing season. September–October 15: U.S. extended filing deadline period.",
     "responseTime": "1 week",
-    "pricingNote": "Fees are generally fixed based on the scope and complexity of the engagement. More complex cross-border engagements are quoted individually following an initial review.",
+    "pricingNote": "Not specified",
     "website": "https://www.expand-cpa.com",
     "privacyPolicy": "Not specified",
-    "locationSuffix": "(also Miami, Florida and Tel Aviv)"
+    "locationSuffix": "(also Miami, Florida and Tel Aviv)",
+    "pricingItems": [
+      {
+        "name": "Initial consultation (30 min)",
+        "fee": "€250"
+      },
+      {
+        "name": "Written analysis",
+        "fee": "from €1,000"
+      },
+      {
+        "name": "Tax returns",
+        "fee": "from €1,200 each"
+      }
+    ]
+  },
+  {
+    "id": "arsene",
+    "airtableId": "recI08dhAM0ukLFSN",
+    "name": "Arsene",
+    "country": "France",
+    "flag": "🇫🇷",
+    "city": "32 rue de Monceau, 75008 Paris",
+    "status": "Active",
+    "about": "Arsene is a Paris-based independent law firm dedicated exclusively to tax, founded in 2004. It is a founder of Taxand, an international network of independent tax firms. Its individual tax team advises private clients in France and abroad on compensation, international mobility, asset structuring, succession planning, and compliance and filings.",
+    "idealClient": "Employees based in France, or moving to or from France, with equity compensation or liquidity-event questions, estate planning and wealth transfer needs, or cross-border personal tax matters.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning"
+    ],
+    "languages": "French, English",
+    "years": "10",
+    "credentials": "Avocat à la Cour (French bar)",
+    "membership": "Not specified",
+    "consultFee": "60 min €630 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes, charged at €1,500 + VAT.",
+    "whatToBring": "Equity documents (grant agreements, plan summaries, vesting schedules, recent statements), recent tax returns, a list of countries you've lived or worked in with dates, any existing advisors or structures, and your key questions and deadlines.",
+    "busySeason": "Not specified",
+    "responseTime": "1-2 weeks",
+    "pricingNote": "Fees are scoped case by case and agreed with the member in writing before services begin.",
+    "website": "https://arsene-taxand.com/en/",
+    "privacyPolicy": "Not specified"
   }
 ];

@@ -98,6 +98,8 @@
   .pricing-item .pricing-fee{ color:var(--teal); font-weight:600; white-space:nowrap; font-size:13px; }
   .pricing-item .pricing-desc{ margin:4px 0 0; font-size:12.5px; color:var(--muted); }
 
+  section.block p.fee-disclaimer{ font-size:12.5px; color:var(--muted); margin:12px 0 0; }
+
   .credentials-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
   .credentials-list li{ font-size:13.5px; color:var(--ink-soft); padding-left:14px; position:relative; }
   .credentials-list li::before{ content:"–"; position:absolute; left:0; color:var(--teal); }
@@ -203,10 +205,11 @@ function renderDetail(){
         <div class="pricing-head"><span>${item.name}</span><span class="pricing-fee">${item.fee}</span></div>
         ${item.description ? `<p class="pricing-desc">${item.description}</p>` : ''}
       </li>`).join('')}</ul>` : '';
+  const feeDisclaimerP = `<p class="fee-disclaimer">Fees shown are indicative only, and actual costs will vary depending on individual needs. The firm will provide a detailed engagement letter with the full cost before any services begin.</p>`;
   const hasConsultSection = hasValue(f.consultProcess) || hasValue(f.pricingNote) || pricingItemsHTML;
   const hasBringSection = hasValue(f.whatToBring);
 
-  const consultSection = hasConsultSection ? `<section class="block"><h3>Consultation & fees</h3>${consultProcessP}${pricingItemsHTML || pricingNoteP}</section>` : '';
+  const consultSection = hasConsultSection ? `<section class="block"><h3>Consultation & fees</h3>${consultProcessP}${pricingItemsHTML || pricingNoteP}${feeDisclaimerP}</section>` : '';
   const bringSection = hasBringSection ? `<section class="block"><h3>Good to bring to the first call</h3><p>${f.whatToBring}</p></section>` : '';
 
   let twoColHTML = '';
@@ -226,7 +229,9 @@ function renderDetail(){
     </section>` : '';
 
   const websiteHTML = hasValue(f.website) ? `<p style="margin-top:6px;"><a class="website-link" href="${f.website}" target="_blank" rel="noopener">Visit firm website ↗</a></p>` : '';
-  const privacyHTML = hasValue(f.privacyPolicy) ? `<p style="margin-top:6px;"><a class="website-link" href="${f.privacyPolicy}" target="_blank" rel="noopener">Privacy policy ↗</a></p>` : '';
+  const privacyHTML = hasValue(f.privacyPolicy)
+    ? `<p style="margin-top:6px;"><a class="website-link" href="${f.privacyPolicy}" target="_blank" rel="noopener">Privacy policy ↗</a></p>`
+    : (hasValue(f.privacyPolicyNote) ? `<p style="margin-top:6px; font-size:13px; color:var(--muted);">Privacy policy: ${f.privacyPolicyNote}</p>` : '');
 
   detailEl.innerHTML = `
     <div class="firm-head">

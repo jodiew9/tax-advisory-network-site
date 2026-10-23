@@ -573,18 +573,20 @@ module.exports = [
     "years": "Since 1823",
     "credentials": "Not specified",
     "credentialsList": [
-      "Kevin Bianchini — Québec lawyer; graduate diploma in taxation, HEC Montréal",
-      "Michelle Dion — Québec notary; diploma in notarial law; STEP training",
-      "Noah Weinstein — Québec lawyer; Master of Taxation, Université de Sherbrooke"
+      "Québec lawyers",
+      "Québec notary (diploma in notarial law)",
+      "Graduate diploma in taxation (HEC Montréal)",
+      "Master of Taxation (Université de Sherbrooke)",
+      "STEP training"
     ],
     "membership": "Not specified",
-    "consultFee": "Not specified",
+    "consultFee": "60 min CAD 760 + sales taxes",
     "consultProcess": "The initial consultation is typically complimentary and begins with a 30-minute call to discuss the client's needs, objectives, and priorities.",
     "whatToBring": "A high-level overview of your personal, family, and business circumstances, principal assets and ownership structures, any relevant trusts or corporations, the jurisdictions involved, and your key tax, estate, succession, or wealth-planning objectives.",
     "busySeason": "Not specified",
     "responseTime": "> 1 week",
-    "pricingNote": "Fees are generally billed on an hourly basis, based on the time spent providing legal services.",
-    "website": "https://www.blg.com/en/people/b/bianchini-kevin",
+    "pricingNote": "Consultations are CAD 760 per 60 minutes + sales taxes. Fees are generally billed on an hourly basis, based on the time spent providing legal services.",
+    "website": "https://www.blg.com/",
     "privacyPolicy": "https://www.blg.com/en/about-us/privacy"
   },
   {
@@ -641,11 +643,11 @@ module.exports = [
     "credentials": "German-qualified lawyers (Rechtsanwälte), tax advisors (Steuerberater), and auditors (Wirtschaftsprüfer)",
     "membership": "Relevant German and regional professional bodies, including the competent regional Bars (Rechtsanwaltskammer), the competent regional Chambers of Tax Advisors (Steuerberaterkammer), and, where applicable, the Chamber of Auditors (Wirtschaftsprüferkammer)",
     "consultFee": "60 min €750 + VAT",
-    "consultProcess": "The initial consultation is paid, at a €500 lump sum, and typically lasts 30–60 minutes.",
+    "consultProcess": "The initial consultation is paid, at a €500 + VAT lump sum, and typically lasts 30–60 minutes.",
     "whatToBring": "Relevant documents and background information, including your employment contract, equity compensation agreement, and last income tax assessments and declarations; an overview of the jurisdictions in which you have (or in the last 5 years had) tax liabilities; an overview of your assets and income; your family situation (including any prenup); any position in a trust, foundation, personal company, or partnership; and any intended wealth transfers.",
     "busySeason": "Not specified",
     "responseTime": "> 1 week",
-    "pricingNote": "Billed on an hourly basis, from €300 (juniors) to €750 (partners), plus VAT where applicable.",
+    "pricingNote": "Billed on an hourly basis, from €300 (juniors) to €750 (partners) + VAT.",
     "website": "https://www.fgs.de/",
     "privacyPolicy": "https://www.fgs.de/en/data-protection-notice"
   }

@@ -375,7 +375,8 @@ module.exports = [
       }
     ],
     "website": "https://www.linkedin.com/company/sra-law/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "privacyPolicyNote": "available upon request from the firm"
   },
   {
     "id": "expandcpa",

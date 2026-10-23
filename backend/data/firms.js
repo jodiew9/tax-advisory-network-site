@@ -614,5 +614,38 @@ module.exports = [
     "pricingNote": "The first contact is usually free, since the reason for the enquiry is not known in advance; the standard rate is €150 + VAT.",
     "website": "https://www.alsefinyasociados.es/",
     "privacyPolicy": "Not specified"
+  },
+  {
+    "id": "fgs",
+    "airtableId": "recdFzUSLYcSMWNp0",
+    "name": "Flick Gocke Schaumburg - Rechtsanwälte Wirtschaftsprüfer Steuerberater Partnerschaft mbB",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "city": "Bonn · Frankfurt · München · Düsseldorf · Berlin · Hamburg · Stuttgart",
+    "status": "Active",
+    "about": "Flick Gocke Schaumburg was founded in Bonn in 1972 and is Germany's largest independent tax-focused law firm, with around 490 professionals across seven offices nationwide. The firm is widely recognized as a market leader in German tax law, combining expertise in tax and business law with auditing, business valuation, transactions, and compliance. Its leading position is reflected in top-tier rankings by leading legal directories, including Chambers and Partners, The Legal 500, and International Tax Review, across tax law and related practice areas such as private wealth, succession planning, and tax disputes. The firm also advises corporations, family-owned businesses, high-net-worth individuals, and non-profit organizations. Internationally, Flick Gocke Schaumburg is the exclusive German member of Taxand, a global network of independent tax advisory firms. Together with its international partner firms, this enables the firm to advise on complex cross-border tax and legal matters.",
+    "idealClient": "The firm best serves private clients, corporations, family-owned businesses, financial investors, and nonprofit or public-sector institutions with complex German and cross-border tax and legal matters.",
+    "services": [
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Annual tax filing",
+      "Foreign account reporting",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Business ownership / self-employment"
+    ],
+    "languages": "German, English, French",
+    "years": "50+",
+    "credentials": "German-qualified lawyers (Rechtsanwälte), tax advisors (Steuerberater), and auditors (Wirtschaftsprüfer)",
+    "membership": "Relevant German and regional professional bodies, including the competent regional Bars (Rechtsanwaltskammer), the competent regional Chambers of Tax Advisors (Steuerberaterkammer), and, where applicable, the Chamber of Auditors (Wirtschaftsprüferkammer)",
+    "consultFee": "60 min €750 + VAT",
+    "consultProcess": "The initial consultation is paid, at a €500 lump sum, and typically lasts 30–60 minutes.",
+    "whatToBring": "Relevant documents and background information, including your employment contract, equity compensation agreement, and last income tax assessments and declarations; an overview of the jurisdictions in which you have (or in the last 5 years had) tax liabilities; an overview of your assets and income; your family situation (including any prenup); any position in a trust, foundation, personal company, or partnership; and any intended wealth transfers.",
+    "busySeason": "Not specified",
+    "responseTime": "> 1 week",
+    "pricingNote": "Billed on an hourly basis, from €300 (juniors) to €750 (partners), plus VAT where applicable.",
+    "website": "https://www.fgs.de/",
+    "privacyPolicy": "https://www.fgs.de/en/data-protection-notice"
   }
 ];

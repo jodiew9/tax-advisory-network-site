@@ -290,7 +290,7 @@ module.exports = [
       "Estate & wealth transfer planning"
     ],
     "languages": "English",
-    "years": "10",
+    "years": "12 years",
     "credentials": "CPA, CFP, and specialized tax training (CPA In Depth Tax program)",
     "membership": "CPA, CFP.",
     "consultFee": "60 min CAD 500",
@@ -350,7 +350,7 @@ module.exports = [
     "years": "Not specified",
     "credentials": "Shreya Rao – Bar Council of Maharashtra and Goa (Enrollment No. 048843)",
     "membership": "Bar Council of India",
-    "consultFee": "60 min USD 300–450",
+    "consultFee": "USD 160–450, depending on seniority",
     "consultProcess": "Hourly rates depend on seniority level.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",
@@ -376,7 +376,8 @@ module.exports = [
     ],
     "website": "https://www.linkedin.com/company/sra-law/",
     "privacyPolicy": "Not specified",
-    "privacyPolicyNote": "available upon request from the firm"
+    "privacyPolicyNote": "available upon request from the firm",
+    "consultFeeLabel": "Hourly rates"
   },
   {
     "id": "expandcpa",

@@ -94,7 +94,7 @@
   .website-link{ font-size:13px; color:var(--teal); text-decoration:none; border-bottom:1px solid var(--teal); }
 
   .pricing-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px; }
-  .pricing-item .pricing-head{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; font-size:13.5px; color:var(--ink); font-weight:600; }
+  .pricing-item .pricing-head{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:4px 12px; font-size:13.5px; color:var(--ink); font-weight:600; }
   .pricing-item .pricing-fee{ color:var(--teal); font-weight:600; white-space:nowrap; font-size:13px; }
   .pricing-item .pricing-desc{ margin:4px 0 0; font-size:12.5px; color:var(--muted); }
 
@@ -170,7 +170,7 @@ function renderDetail(){
   if(hasValue(f.years)) shortFacts.push(['Years of experience', f.years]);
   if(hasValue(f.responseTime)) shortFacts.push(['Time to schedule a meeting', f.responseTime]);
   if(hasValue(f.languages)) shortFacts.push(['Languages', f.languages]);
-  if(hasValue(f.consultFee)) shortFacts.push(['Typical consultation', f.consultFee]);
+  if(hasValue(f.consultFee)) shortFacts.push([f.consultFeeLabel || 'Typical consultation', f.consultFee]);
   const membershipValue = hasValue(f.membership) ? f.membership.replace(/\.\s*$/, '') : null;
 
   const quickfactsHTML = (shortFacts.length || membershipValue) ? `

@@ -167,7 +167,7 @@ function renderDetail(){
   if(!f) return;
 
   const shortFacts = [];
-  if(hasValue(f.years)) shortFacts.push(['Years of experience', f.years]);
+  if(hasValue(f.years)) shortFacts.push([f.yearsLabel || 'Years of experience', f.years]);
   if(hasValue(f.responseTime)) shortFacts.push(['Time to schedule a meeting', f.responseTime]);
   if(hasValue(f.languages)) shortFacts.push(['Languages', f.languages]);
   if(hasValue(f.consultFee)) shortFacts.push([f.consultFeeLabel || 'Typical consultation', f.consultFee]);

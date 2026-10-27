@@ -88,7 +88,8 @@ module.exports = [
     "responseTime": "1 week",
     "pricingNote": "Monthly retainers start from GBP 110 + VAT, plus a client onboarding charge based on the client profile. Hourly rates are GBP 185–250 + VAT.",
     "website": "https://taxqube.co.uk/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "worldwide-advisory",
@@ -150,7 +151,8 @@ module.exports = [
     "responseTime": "1 week",
     "pricingNote": "Not specified",
     "website": "https://www.fatcacittadiniamericani.com/",
-    "privacyPolicy": "https://www.studiodotcom.it/privacy/"
+    "privacyPolicy": "https://www.studiodotcom.it/privacy/",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "albeatax",
@@ -181,7 +183,8 @@ module.exports = [
     "responseTime": "1 week",
     "pricingNote": "The firm usually works with fixed fees; the hourly rate is EUR 150 + VAT where applicable. Individual tax return preparation: EUR 350–650 + VAT.",
     "website": "https://albeatax.com/",
-    "privacyPolicy": "https://albeatax.com/en/privacy-policy"
+    "privacyPolicy": "https://albeatax.com/en/privacy-policy",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "archipel",
@@ -271,7 +274,8 @@ module.exports = [
     "responseTime": "1 week",
     "pricingNote": "Billed hourly at CHF 380–550 depending on seniority (blended rate typically around CHF 400). Fixed fees are available for predefined products such as tax returns, and a fee quote is usually provided in advance. All fees are subject to a 3% administrative flat fee and VAT where applicable.",
     "website": "https://www.primetax.ch",
-    "privacyPolicy": "https://www.primetax.ch/en/copyright/"
+    "privacyPolicy": "https://www.primetax.ch/en/copyright/",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "copilot",
@@ -329,7 +333,8 @@ module.exports = [
     "responseTime": "1 week",
     "pricingNote": "Flat fee per tax return ranging from EUR 500–1,000 + VAT, depending on complexity.",
     "website": "https://www.gallagherkeane.ie",
-    "privacyPolicy": "https://portal.gallagherkeane.ie/registration/V2pSOv5KqL1ypVqZ3xzUs7ydQAsf3fxf0Pp0yb1UXFDWGXWswNAcNCA"
+    "privacyPolicy": "https://portal.gallagherkeane.ie/registration/V2pSOv5KqL1ypVqZ3xzUs7ydQAsf3fxf0Pp0yb1UXFDWGXWswNAcNCA",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "shreyarao",
@@ -420,7 +425,8 @@ module.exports = [
         "name": "Tax returns",
         "fee": "from EUR 1,200 each + VAT"
       }
-    ]
+    ],
+    "yearsLabel": "Firm age"
   },
   {
     "id": "arsene",
@@ -441,7 +447,7 @@ module.exports = [
       "Estate & wealth transfer planning"
     ],
     "languages": "French, English",
-    "years": "10 years",
+    "years": "22 years",
     "credentials": "Avocat à la Cour (French bar)",
     "membership": "Not specified",
     "consultFee": "60 min EUR 630 + VAT",
@@ -451,7 +457,8 @@ module.exports = [
     "responseTime": "1–2 weeks",
     "pricingNote": "Fees are scoped on a case by case basis, and agreed upon with the member in writing before services begin.",
     "website": "https://arsene-taxand.com/en/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "yasuda",
@@ -471,7 +478,7 @@ module.exports = [
       "Business ownership / self-employment"
     ],
     "languages": "Japanese, English",
-    "years": "Not specified",
+    "years": "20+ years",
     "credentials": "Japanese Certified Public Accountant (CPA), Japanese Certified Public Tax Accountant (Zeirishi)",
     "membership": "Not specified",
     "consultFee": "60 min JPY 40,000",
@@ -579,7 +586,8 @@ module.exports = [
     "responseTime": "> 1 week",
     "pricingNote": "Consultations are CAD 760 per 60 minutes + sales taxes. Fees are generally billed on an hourly basis, based on the time spent providing legal services.",
     "website": "https://www.blg.com/",
-    "privacyPolicy": "https://www.blg.com/en/about-us/privacy"
+    "privacyPolicy": "https://www.blg.com/en/about-us/privacy",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "alsefin",
@@ -641,7 +649,8 @@ module.exports = [
     "responseTime": "> 1 week",
     "pricingNote": "Billed on an hourly basis, from EUR 300 (juniors) to EUR 750 (partners) + VAT.",
     "website": "https://www.fgs.de/",
-    "privacyPolicy": "https://www.fgs.de/en/data-protection-notice"
+    "privacyPolicy": "https://www.fgs.de/en/data-protection-notice",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "yulchon",
@@ -673,7 +682,8 @@ module.exports = [
     "responseTime": "1–2 weeks",
     "pricingNote": "Billed on an hourly basis, starting at USD 560 per hour.",
     "website": "https://www.yulchon.com/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "taxpartner",
@@ -718,6 +728,7 @@ module.exports = [
       }
     ],
     "website": "https://taxpartner.ch/",
-    "privacyPolicy": "https://taxpartner.ch/en/disclaimer/"
+    "privacyPolicy": "https://taxpartner.ch/en/disclaimer/",
+    "yearsLabel": "Firm age"
   }
 ];

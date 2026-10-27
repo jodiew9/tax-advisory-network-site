@@ -347,10 +347,10 @@ module.exports = [
       "Estate & wealth transfer planning"
     ],
     "languages": "English",
-    "years": "Not specified",
+    "years": "15+ years",
     "credentials": "Shreya Rao – Bar Council of Maharashtra and Goa (Enrollment No. 048843)",
     "membership": "Bar Council of India",
-    "consultFee": "USD 160–450, depending on seniority",
+    "consultFee": "Not specified",
     "consultProcess": "Hourly rates depend on seniority level.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",
@@ -376,8 +376,7 @@ module.exports = [
     ],
     "website": "https://www.linkedin.com/company/sra-law/",
     "privacyPolicy": "Not specified",
-    "privacyPolicyNote": "available upon request from the firm",
-    "consultFeeLabel": "Hourly rates"
+    "privacyPolicyNote": "available upon request from the firm"
   },
   {
     "id": "expandcpa",

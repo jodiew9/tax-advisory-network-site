@@ -650,5 +650,37 @@ module.exports = [
     "pricingNote": "Billed on an hourly basis, from €300 (juniors) to €750 (partners) + VAT.",
     "website": "https://www.fgs.de/",
     "privacyPolicy": "https://www.fgs.de/en/data-protection-notice"
+  },
+  {
+    "id": "yulchon",
+    "airtableId": "recewmTAsmpiWt213",
+    "name": "Yulchon LLC",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "city": "Seoul",
+    "status": "Active",
+    "about": "Yulchon was founded in 1997 and has been ranked in Tier 1/Band 1 for tax by major law firm evaluation agencies for the last 18 years. It was selected by International Tax Review as Asia’s best law firm for transactional tax advice. Its Tax Consulting Team advises on all areas of tax, including general corporate tax, corporate restructuring tax, financial transaction tax, real estate investment tax, and tax planning for individuals.",
+    "idealClient": "Individuals with complex Korean and cross-border tax matters, including equity compensation, liquidity events, estate and wealth transfer planning, and business ownership. The firm’s tax team is recognized for sophisticated transactional and planning work, so it is particularly well suited to situations involving significant equity events or structuring needs.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment",
+      "Foreign account reporting"
+    ],
+    "languages": "English, Korean",
+    "years": "28 years",
+    "credentials": "Lawyers and certified public accountants (C.P.A.s)",
+    "membership": "Not specified",
+    "consultFee": "60 min USD 730",
+    "consultProcess": "The initial consultation is 60 minutes, charged at USD 1,500.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1-2 weeks",
+    "pricingNote": "Billed on an hourly basis, starting at USD 560 per hour.",
+    "website": "https://www.yulchon.com/",
+    "privacyPolicy": "Not specified"
   }
 ];

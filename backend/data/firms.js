@@ -764,14 +764,14 @@ module.exports = [
         "fee": "EUR 285/hour + VAT"
       },
       {
-        "name": "Tax returns (regulated fee)",
+        "name": "Tax returns",
         "fee": "Based on income",
-        "description": "Fees follow the German Tax Advisor Fee Ordinance (StBVV) and scale with income. Example: for employment income of about EUR 300,000, the fee is about EUR 1,930 + VAT (income tax return about EUR 1,000, plus about EUR 930 for the employment income form), before out-of-pocket expenses of 5% and about EUR 30 for software."
+        "description": "Fees follow the German Tax Advisor Fee Ordinance (StBVV) and scale with income."
       },
       {
         "name": "Additional income (e.g., rental)",
-        "fee": "EUR 167–514 + VAT",
-        "description": "Rental or other income requires a separate form. Range shown is for about EUR 8,000 of income; the firm often applies a higher-than-average rate within the regulated range."
+        "fee": "Varies",
+        "description": "Requires a separate form."
       }
     ],
     "website": "https://www.hartung-consulting.com",

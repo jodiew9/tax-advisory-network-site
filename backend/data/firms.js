@@ -730,5 +730,51 @@ module.exports = [
     "website": "https://taxpartner.ch/",
     "privacyPolicy": "https://taxpartner.ch/en/disclaimer/",
     "yearsLabel": "Firm age"
+  },
+  {
+    "id": "hartung",
+    "airtableId": "recqOWeuePDGcNXgI",
+    "name": "ETL Hartung Consulting GmbH Steuerberatungsgesellschaft",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "city": "Düsseldorf (main office) · Hamburg",
+    "status": "Active",
+    "about": "ETL Hartung Consulting was founded in 2000 and has a core team of about 50 employees. It provides tax services and consulting to domestic and international companies of various legal structures, as well as to individuals. The firm belongs to the ETL Group and the TIAG network.",
+    "idealClient": "Individuals with matters ranging from purely domestic to high-complexity cross-border cases.",
+    "services": [
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Business ownership / self-employment",
+      "Foreign account reporting"
+    ],
+    "languages": "German, English, Japanese, Chinese, Greek, Turkish",
+    "years": "27 years",
+    "yearsLabel": "Firm age",
+    "credentials": "German Chartered Tax Advisor",
+    "membership": "Steuerberaterkammer (Chamber of Tax Advisors)",
+    "consultFee": "60 min EUR 285 + VAT",
+    "consultProcess": "Paid initial consultation of about one hour. Tax return fees are regulated by German law and set out in a service and fee proposal that the client signs before work begins.",
+    "whatToBring": "A short summary of the case. For tax returns, the firm provides a questionnaire.",
+    "busySeason": "Not specified",
+    "responseTime": "1 week",
+    "pricingNote": "Not specified",
+    "pricingItems": [
+      {
+        "name": "Special tax services",
+        "fee": "EUR 285/hour + VAT"
+      },
+      {
+        "name": "Tax returns (regulated fee)",
+        "fee": "Based on income",
+        "description": "Fees follow the German Tax Advisor Fee Ordinance (StBVV) and scale with income. Example: for employment income of about EUR 300,000, the fee is about EUR 1,930 + VAT (income tax return about EUR 1,000, plus about EUR 930 for the employment income form), before out-of-pocket expenses of 5% and about EUR 30 for software."
+      },
+      {
+        "name": "Additional income (e.g., rental)",
+        "fee": "EUR 167–514 + VAT",
+        "description": "Rental or other income requires a separate form. Range shown is for about EUR 8,000 of income; the firm often applies a higher-than-average rate within the regulated range."
+      }
+    ],
+    "website": "https://www.hartung-consulting.com",
+    "privacyPolicy": "https://www.hartung-consulting.com/datenschutz"
   }
 ];

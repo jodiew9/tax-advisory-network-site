@@ -18,7 +18,7 @@ module.exports = [
     ],
     "languages": "English, German, French, Arabic",
     "years": "10 years",
-    "credentials": "The team consists of Swiss tax specializts with LL.M. degrees and professionals trained in business law",
+    "credentials": "The team consists of Swiss tax specialists with LL.M. degrees and professionals trained in business law",
     "membership": "Member of TreuhandSuisse, which requires professional degrees as well as professional insurances.",
     "consultFee": "Fee based: CHF 700–2,900 + VAT",
     "consultProcess": "Taxolution offers fixed, tier-based pricing for Swiss tax return services, currently ranging from CHF 700–2,900 (VAT not included), based on factors such as income sources, investments, property, relocation, equity compensation, and self-employment. Employees can determine their price upfront using the <a href=\"http://taxolution.ch/pricing\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--teal);\">Taxolution online price calculator</a>, then access the MyTaxolution portal and schedule a free initial consultation; fees are billed only after the tax return is filed. The tier price includes tax optimization analysis and full English-language guidance; services outside the tax return, such as tax rulings, written memos, scenario analyses, or representation, are quoted separately.",
@@ -38,7 +38,7 @@ module.exports = [
     "city": "London",
     "status": "Need MoU",
     "about": "Taxd is a UK-based digital tax and accounting firm founded in 2021, with a small team of around six tax and accounting advisors supported by software developers and operations staff. It specializes in technology-assisted UK tax compliance and advisory work — particularly Self Assessment, property tax, expatriate and non-resident matters, partnerships, and owner-managed companies — and is currently growing its team.",
-    "idealClient": "Clients span the full range of complexity, from straightforward single-country filers to individuals with income, assets, or equity across multiple jurisdictions. The firm’s software is designed to handle most cases efficiently, while more complex cross-border or planning needs are routed to its specializt advisory service, with human support available throughout.",
+    "idealClient": "Clients span the full range of complexity, from straightforward single-country filers to individuals with income, assets, or equity across multiple jurisdictions. The firm’s software is designed to handle most cases efficiently, while more complex cross-border or planning needs are routed to its specialist advisory service, with human support available throughout.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Annual tax filing",
@@ -100,7 +100,7 @@ module.exports = [
     "city": "Remote (Directors based in Brisbane, Australia)",
     "status": "Need MoU",
     "about": "Worldwide Advisory is an Australian boutique tax and accounting advisory firm founded in 2019, led by two partners who are Registered Tax Agents and CPA Australia members. It specializes in Australian cross-border and international tax, including tax residency, expatriate and global mobility taxation, foreign income and investments, and cross-border business structures. It advises Australian residents and non-residents, internationally mobile individuals, business owners, and foreign businesses with Australian tax obligations, and coordinates foreign-jurisdiction advice with qualified overseas advisors where required.",
-    "idealClient": "Individuals and businesses with complex Australian cross-border tax matters, particularly where tax residency, assets, income, investments, or business interests span multiple jurisdictions. Typical clients include Australians relocating overseas or returning to Australia, foreign nationals moving to Australia, expatriates, high-net-worth individuals with overseas assets, and business owners operating across borders. The firm is a better fit for specializt cross-border advice than for straightforward single-jurisdiction compliance.",
+    "idealClient": "Individuals and businesses with complex Australian cross-border tax matters, particularly where tax residency, assets, income, investments, or business interests span multiple jurisdictions. Typical clients include Australians relocating overseas or returning to Australia, foreign nationals moving to Australia, expatriates, high-net-worth individuals with overseas assets, and business owners operating across borders. The firm is a better fit for specialist cross-border advice than for straightforward single-jurisdiction compliance.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Cross-border / expatriate tax",
@@ -285,7 +285,7 @@ module.exports = [
     "flag": "🇨🇦",
     "city": "Fully remote",
     "status": "Active",
-    "about": "CoPilot Tax is a Canadian tax planning and accounting firm that works with people remotely all across Canada. Its specializts focus on proactive tax planning and advice, not just filing returns.",
+    "about": "CoPilot Tax is a Canadian tax planning and accounting firm that works with people remotely all across Canada. Its specialists focus on proactive tax planning and advice, not just filing returns.",
     "idealClient": "Canadians who hold stock options, RSUs, or ESPP shares and who also have other moving parts, such as a corporation, self-employment income, or a recent move into or out of Canada. The firm is a strong fit for people who want planning before they exercise or sell, not only a return after the fact.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",

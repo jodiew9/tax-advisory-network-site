@@ -144,14 +144,14 @@ module.exports = [
     "years": "30 years",
     "credentials": "Chartered Tax Advisers",
     "membership": "Italy",
-    "consultFee": "60 min EUR 350 + VAT",
-    "consultProcess": "The initial 30-minute consultation is free; consultations thereafter are EUR 350 + VAT per hour. A flat fee is also available, depending on complexity. Individual tax return preparation: EUR 1,000–1,800.",
+    "consultFee": "60 min EUR 400 + VAT",
+    "consultProcess": "The initial 30-minute consultation is free; consultations thereafter are EUR 400 + VAT per hour. A flat fee is also available, depending on complexity. Individual tax return preparation: EUR 1,000–1,800 + VAT.",
     "whatToBring": "The firm aims to understand the client’s needs and make a strategic assessment aligned with their long-term goals.",
     "busySeason": "September – tax filing.",
     "responseTime": "1 week",
     "pricingNote": "Not specified",
     "website": "https://www.fatcacittadiniamericani.com/",
-    "privacyPolicy": "https://www.studiodotcom.it/privacy/",
+    "privacyPolicy": "Not specified",
     "yearsLabel": "Firm age"
   },
   {
@@ -728,7 +728,7 @@ module.exports = [
       }
     ],
     "website": "https://taxpartner.ch/",
-    "privacyPolicy": "https://taxpartner.ch/en/disclaimer/",
+    "privacyPolicy": "Not specified",
     "yearsLabel": "Firm age"
   },
   {

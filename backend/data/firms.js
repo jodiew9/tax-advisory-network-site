@@ -816,5 +816,63 @@ module.exports = [
     "pricingNote": "Fees are scoped on a case by case basis, and agreed upon with the member in writing before services begin.",
     "website": "https://www.blickrothenberg.com/services/us-uk-private-client/",
     "privacyPolicy": "https://www.blickrothenberg.com/privacy-policy/"
+  },
+  {
+    "id": "tokyoadvisory",
+    "airtableId": "recGOi8t15BtnSDtU",
+    "name": "Yamamoto Mamiko CPA Accounting Office / Tokyo Advisory Co., Ltd.",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "city": "Tokyo (Roppongi Hills Mori Tower, Minato-ku)",
+    "status": "Active",
+    "about": "Tokyo Advisory is a Tokyo-based bilingual (Japanese/English) tax practice led by Mamiko Yamamoto, a licensed Japanese tax accountant (zeirishi), Japanese CPA and US CPA (Washington State). Individual tax engagements are entered into by Yamamoto Mamiko CPA Accounting Office, a licensed zeirishi practice; Tokyo Advisory Co., Ltd. is the affiliated company under the same direction. The practice focuses on Japan-US cross-border individual tax: Japanese and US income tax returns for Japan residents, taxation of equity compensation from overseas employers (RSUs, stock options, ESPP), overseas asset reporting (Kokugai Zaisan Chosho), FBAR/FATCA, inheritance and gift tax, and tax residency questions on arrival in or departure from Japan.",
+    "idealClient": "Japan-resident employees of US and other overseas companies who receive RSUs, stock options or ESPP shares, including those facing a tender offer, IPO or other liquidity event; US citizens and green card holders living in Japan who must file in both Japan and the US; individuals with overseas brokerage accounts or other foreign assets that trigger Japanese reporting; and people moving to or leaving Japan who need advice on residency status, departure procedures and exit tax. Well suited to cases involving more than one jurisdiction; also handles straightforward Japanese returns.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Foreign account reporting",
+      "Business ownership / self-employment"
+    ],
+    "languages": "Japanese, English",
+    "years": "20 years",
+    "credentials": "Not specified",
+    "credentialsList": [
+      "Certified Public Tax Accountant (Zeirishi), Japan",
+      "Certified Public Accountant, Japan",
+      "US CPA (Washington State)",
+      "IRS PTIN holder",
+      "Gyoseishoshi (Certified Administrative Procedures Legal Specialist), Japan"
+    ],
+    "membership": "Tokyo Certified Public Tax Accountants’ Association (member of the Japan Federation of Certified Public Tax Accountants’ Associations); Japanese Institute of Certified Public Accountants (JICPA); Tokyo Gyoseishoshi Lawyers Association",
+    "consultFee": "60 min JPY 30,000",
+    "consultProcess": "Paid 60-minute consultation, in person (Tokyo) or online.",
+    "whatToBring": "Your most recent Japanese tax return and, if applicable, US Form 1040; Japanese withholding slip (Gensen Choshu-hyo); equity award documents (grant agreements, vesting and exercise confirmations, brokerage statements); dates of arrival in and any planned departure from Japan, and visa status; a list of overseas accounts and assets; and details and deadlines of any upcoming liquidity event (tender offer, IPO, exercise window).",
+    "busySeason": "February – mid-March (Japanese tax return season; filing deadline March 15); early to mid-April (US filing deadline); late December – early January. Availability is also reduced during Golden Week (late April – early May) and mid-August (Obon).",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Initial and follow-up consultations",
+        "fee": "JPY 30,000 per 60-min session"
+      },
+      {
+        "name": "Monthly advisory",
+        "fee": "JPY 30,000/month",
+        "description": "About 3 queries per month, by email or chat."
+      },
+      {
+        "name": "Tax planning report (Japanese/English)",
+        "fee": "JPY 100,000–300,000"
+      },
+      {
+        "name": "Japanese income tax return (employment, equity, capital gains)",
+        "fee": "JPY 109,091–227,273"
+      }
+    ],
+    "pricingNote": "Fixed fee per engagement, quoted in writing after the initial consultation.",
+    "website": "https://www.tokyoadvisory.com/en",
+    "privacyPolicy": "https://www.tokyoadvisory.com/en/privacy-policy"
   }
 ];

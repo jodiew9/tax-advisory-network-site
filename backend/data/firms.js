@@ -825,8 +825,8 @@ module.exports = [
     "flag": "🇯🇵",
     "city": "Tokyo (Roppongi Hills Mori Tower, Minato-ku)",
     "status": "Active",
-    "about": "Tokyo Advisory is a Tokyo-based bilingual (Japanese/English) tax practice led by Mamiko Yamamoto, a licensed Japanese tax accountant (zeirishi), Japanese CPA and US CPA (Washington State). Individual tax engagements are entered into by Yamamoto Mamiko CPA Accounting Office, a licensed zeirishi practice; Tokyo Advisory Co., Ltd. is the affiliated company under the same direction. The practice focuses on Japan-US cross-border individual tax: Japanese and US income tax returns for Japan residents, taxation of equity compensation from overseas employers (RSUs, stock options, ESPP), overseas asset reporting (Kokugai Zaisan Chosho), FBAR/FATCA, inheritance and gift tax, and tax residency questions on arrival in or departure from Japan.",
-    "idealClient": "Japan-resident employees of US and other overseas companies who receive RSUs, stock options or ESPP shares, including those facing a tender offer, IPO or other liquidity event; US citizens and green card holders living in Japan who must file in both Japan and the US; individuals with overseas brokerage accounts or other foreign assets that trigger Japanese reporting; and people moving to or leaving Japan who need advice on residency status, departure procedures and exit tax. Well suited to cases involving more than one jurisdiction; also handles straightforward Japanese returns.",
+    "about": "Tokyo Advisory is a bilingual (Japanese/English) tax practice in Tokyo, led by Mamiko Yamamoto, a Japanese tax accountant (zeirishi), Japanese CPA and US CPA. It focuses on Japan–US cross-border individual tax, including Japanese and US returns, equity compensation from overseas employers, overseas asset reporting, and tax residency on arrival or departure. Client engagements are with Yamamoto Mamiko CPA Accounting Office, a licensed zeirishi practice.",
+    "idealClient": "Japan-resident employees of US and other overseas companies with RSUs, stock options or ESPP, including liquidity events; US citizens and green card holders in Japan filing in both countries; people with overseas accounts or assets to report; and those moving to or leaving Japan.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Equity Compensation - Liquidity event planning (tender offer, IPO)",
@@ -843,14 +843,13 @@ module.exports = [
       "Certified Public Tax Accountant (Zeirishi), Japan",
       "Certified Public Accountant, Japan",
       "US CPA (Washington State)",
-      "IRS PTIN holder",
       "Gyoseishoshi (Certified Administrative Procedures Legal Specialist), Japan"
     ],
-    "membership": "Tokyo Certified Public Tax Accountants’ Association (member of the Japan Federation of Certified Public Tax Accountants’ Associations); Japanese Institute of Certified Public Accountants (JICPA); Tokyo Gyoseishoshi Lawyers Association",
+    "membership": "Tokyo Certified Public Tax Accountants’ Association; Japanese Institute of Certified Public Accountants (JICPA)",
     "consultFee": "60 min JPY 30,000",
     "consultProcess": "Paid 60-minute consultation, in person (Tokyo) or online.",
-    "whatToBring": "Your most recent Japanese tax return and, if applicable, US Form 1040; Japanese withholding slip (Gensen Choshu-hyo); equity award documents (grant agreements, vesting and exercise confirmations, brokerage statements); dates of arrival in and any planned departure from Japan, and visa status; a list of overseas accounts and assets; and details and deadlines of any upcoming liquidity event (tender offer, IPO, exercise window).",
-    "busySeason": "February – mid-March (Japanese tax return season; filing deadline March 15); early to mid-April (US filing deadline); late December – early January. Availability is also reduced during Golden Week (late April – early May) and mid-August (Obon).",
+    "whatToBring": "Recent Japanese and US tax returns, your withholding slip, equity award documents and brokerage statements, your Japan arrival and departure dates and visa status, a list of overseas accounts, and details of any upcoming liquidity event.",
+    "busySeason": "February – mid-March (Japanese tax returns, due March 15) and early to mid-April (US filing deadline). Availability is also limited in late December – early January, Golden Week and mid-August.",
     "responseTime": "1–2 weeks",
     "pricingItems": [
       {

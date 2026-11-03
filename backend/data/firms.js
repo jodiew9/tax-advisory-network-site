@@ -776,5 +776,45 @@ module.exports = [
     ],
     "website": "https://www.hartung-consulting.com",
     "privacyPolicy": "https://www.hartung-consulting.com/datenschutz"
+  },
+  {
+    "id": "blickrothenberg",
+    "airtableId": "rec5osjlFEqAfpvt0",
+    "name": "Blick Rothenberg Limited",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "London",
+    "status": "Under Review",
+    "about": "Blick Rothenberg is a London-based tax, accounting and business advisory firm founded in 1945, with more than 700 professionals and over 70 partners and directors. Its US/UK Private Client team of dual-qualified advisors handles combined US and UK personal tax for individuals, families and business owners, including US citizens living in the UK, non-UK domiciled individuals, and trusts and estates.",
+    "idealClient": "UK-resident employees with equity compensation or cross-border personal tax questions, especially US citizens or green card holders living in the UK, individuals with both US and UK tax exposure, and complex cases involving trusts, estates or non-UK domicile.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Cross-border / expatriate tax",
+      "Foreign account reporting",
+      "Estate & wealth transfer planning",
+      "Annual tax filing"
+    ],
+    "languages": "English",
+    "years": "80+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Dual-qualified US/UK tax advisors",
+    "membership": "ICAEW",
+    "consultFee": "60 min GBP 534 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes, charged at a blended rate of about GBP 534 + VAT plus a 2.86% Compliance and Administrative Fee.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "GBP 126–908/hour + VAT",
+        "description": "The rate depends on seniority, from Associate to Partner. A 2.86% Compliance and Administrative Fee also applies."
+      }
+    ],
+    "pricingNote": "Fees are scoped on a case by case basis, and agreed upon with the member in writing before services begin.",
+    "website": "https://www.blickrothenberg.com/services/us-uk-private-client/",
+    "privacyPolicy": "https://www.blickrothenberg.com/privacy-policy/"
   }
 ];

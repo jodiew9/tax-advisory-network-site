@@ -902,7 +902,7 @@ module.exports = [
     "consultProcess": "The initial one-hour consultation, to gather background facts and scope the work, is generally free of charge.",
     "whatToBring": "Full background facts and relevant documents. To speed up an engagement, certified true copies of your passport and proof of address are helpful.",
     "busySeason": "Not specified",
-    "responseTime": "More than 1 week",
+    "responseTime": "1–2 weeks",
     "pricingItems": [
       {
         "name": "Hourly rates",

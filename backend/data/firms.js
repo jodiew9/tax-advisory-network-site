@@ -873,5 +873,45 @@ module.exports = [
     "pricingNote": "Fixed fee per engagement, quoted in writing after the initial consultation.",
     "website": "https://www.tokyoadvisory.com/en",
     "privacyPolicy": "https://www.tokyoadvisory.com/en/privacy-policy"
+  },
+  {
+    "id": "withers",
+    "airtableId": "recyoHEK96fm2taei",
+    "name": "Withers KhattarWong LLP",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "city": "Singapore",
+    "status": "Active",
+    "about": "Withers KhattarWong is a full-service Singapore law firm established in 1974, with more than 180 people including over 20 partners, making it one of the 10 largest law firms in Singapore. It is the Singapore member of the international law firm Withers and of Taxand, and is recognized by Chambers and The Legal 500 for its tax and private wealth practice. Its Singapore tax team includes lawyers qualified in Singapore, the UK and the US.",
+    "idealClient": "Internationally mobile individuals and families, founders, family offices and privately held businesses with complex tax needs, especially where assets, investments, businesses or family members span multiple jurisdictions. The firm also has particular experience structuring single family offices in Singapore, alongside cross-border tax and estate planning, trusts, succession and investment structuring.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Foreign account reporting",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment"
+    ],
+    "languages": "English, Mandarin, French, Spanish, Italian, Arabic, Hindi, Turkish, Russian",
+    "years": "30 years",
+    "credentials": "Advocates & Solicitors in Singapore, with lawyers also qualified in the UK and US",
+    "membership": "Not specified",
+    "consultFee": "60 min from SGD 400",
+    "consultProcess": "The initial one-hour consultation, to gather background facts and scope the work, is generally free of charge.",
+    "whatToBring": "Full background facts and relevant documents. To speed up an engagement, certified true copies of your passport and proof of address are helpful.",
+    "busySeason": "Not specified",
+    "responseTime": "More than 1 week",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "SGD 400–1,255/hour",
+        "description": "Billed by the hour. The rate depends on seniority, from junior associates to the lead partner."
+      }
+    ],
+    "pricingNote": "Not specified",
+    "website": "https://www.withersworldwide.com/en-gb/locations/asia-pacific/singapore",
+    "privacyPolicy": "https://www.withersworldwide.com/en-gb/legal-and-regulatory/data-privacy"
   }
 ];

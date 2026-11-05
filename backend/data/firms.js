@@ -936,11 +936,11 @@ module.exports = [
     "credentials": "Attorneys (J.D.); the Tax Group is led by an attorney with an LL.M. in Taxation",
     "membership": "Admitted in New York; ABA and New York State Bar Association Tax Sections",
     "consultFee": "60 min from USD 500",
-    "consultProcess": "Initial consultations are typically free and run 20–30 minutes. Advice before the firm is formally engaged is limited.",
+    "consultProcess": "Initial consultations are typically free and run 20–30 minutes. Advice is limited before the firm is formally engaged.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",
     "responseTime": "1–2 weeks",
-    "pricingNote": "Not specified",
+    "pricingNote": "Rates may change with advance notice and apply going forward.",
     "website": "https://fkks.com",
     "privacyPolicy": "https://fkks.com/privacy-policy",
     "pricingItems": [

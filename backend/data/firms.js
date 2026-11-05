@@ -913,5 +913,35 @@ module.exports = [
     "pricingNote": "Not specified",
     "website": "https://www.withersworldwide.com/en-gb/locations/asia-pacific/singapore",
     "privacyPolicy": "https://www.withersworldwide.com/en-gb/legal-and-regulatory/data-privacy"
+  },
+  {
+    "id": "fkks",
+    "airtableId": "recaPMJHFoZZ23cRz",
+    "name": "Frankfurt Kurnit Klein & Selz",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "New York, NY · Los Angeles, CA",
+    "status": "Under Review",
+    "about": "Frankfurt Kurnit Klein & Selz is a law firm founded in New York more than 40 years ago, with offices in New York and Los Angeles. Its Best Lawyers-ranked Estate Planning & Administration Group and Tax Group advise individuals, business owners and executives on estate, gift and income tax planning, trusts, retirement assets, and estate and trust administration, and represent clients in tax audits and controversies.",
+    "idealClient": "US members with complex or high-net-worth needs, such as estate, gift and income tax planning, trusts and wealth transfer, executive compensation, and business ownership or succession planning.",
+    "services": [
+      "Estate & wealth transfer planning",
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Business ownership / self-employment",
+      "Retirement / pensions"
+    ],
+    "languages": "English",
+    "years": "40+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Attorneys (J.D.); the Tax Group is led by an attorney with an LL.M. in Taxation",
+    "membership": "Admitted in New York; ABA and New York State Bar Association Tax Sections",
+    "consultFee": "Not specified",
+    "consultProcess": "Not specified",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingNote": "Not specified",
+    "website": "https://fkks.com",
+    "privacyPolicy": "https://fkks.com/privacy-policy"
   }
 ];

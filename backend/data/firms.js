@@ -922,7 +922,7 @@ module.exports = [
     "flag": "🇺🇸",
     "city": "New York, NY · Los Angeles, CA",
     "status": "Under Review",
-    "about": "Frankfurt Kurnit Klein & Selz is a law firm founded in New York more than 40 years ago, with offices in New York and Los Angeles. Its Best Lawyers-ranked Estate Planning & Administration Group and Tax Group advise individuals, business owners and executives on estate, gift and income tax planning, trusts, retirement assets, and estate and trust administration, and represent clients in tax audits and controversies.",
+    "about": "Frankfurt Kurnit Klein & Selz is a New York law firm with a second office in Los Angeles, serving clients for more than 40 years. Its Tax Group and Estate Planning & Administration Group advise individuals, business owners and executives on estate, gift and income tax planning, trusts and retirement assets. They also handle estate and trust administration and represent clients in tax audits and disputes. The estate planning group is ranked by Best Lawyers.",
     "idealClient": "US members with complex or high-net-worth needs, such as estate, gift and income tax planning, trusts and wealth transfer, executive compensation, and business ownership or succession planning.",
     "services": [
       "Estate & wealth transfer planning",

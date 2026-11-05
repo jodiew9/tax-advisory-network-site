@@ -943,5 +943,51 @@ module.exports = [
     "pricingNote": "Not specified",
     "website": "https://fkks.com",
     "privacyPolicy": "https://fkks.com/privacy-policy"
+  },
+  {
+    "id": "maisto",
+    "airtableId": "recoLlXr0g3ECJs0C",
+    "name": "Maisto e Associati",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "city": "Milan · Rome",
+    "status": "Active",
+    "about": "Maisto e Associati is an independent Italian law firm specializing in tax, established in 1991 and now with over 70 members. The firm and several of its partners are ranked tier 1 in Italian tax by Chambers & Partners, The Legal 500 and International Tax Review. Several members have international tax experience from working in the Netherlands, the US and the UK, and the firm has been a Taxand member in Italy since July 2024.",
+    "idealClient": "Members with equity across multiple jurisdictions, complex incentive plans, and high-complexity cross-border cases.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment"
+    ],
+    "languages": "Italian, English",
+    "years": "35 years",
+    "yearsLabel": "Firm age",
+    "credentials": "Italian lawyers (Avvocati) admitted to the Bar, several with LL.M. degrees in tax; some members are Chartered Accountants (Dottori Commercialisti)",
+    "membership": "Ordine degli Avvocati (Italian Bar)",
+    "consultFee": "60 min EUR 500 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes, charged at a blended rate of about EUR 500 + VAT.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Partner",
+        "fee": "EUR 650/hour + VAT"
+      },
+      {
+        "name": "Senior Associate",
+        "fee": "EUR 500/hour + VAT"
+      },
+      {
+        "name": "Associate",
+        "fee": "EUR 350/hour + VAT"
+      }
+    ],
+    "pricingNote": "Scope and fees are agreed on a case by case basis.",
+    "website": "https://maisto.it/en/index.html",
+    "privacyPolicy": "https://www.maisto.it/en/cookies-politics.html"
   }
 ];

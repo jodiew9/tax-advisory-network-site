@@ -209,7 +209,7 @@ function renderDetail(){
   const hasConsultSection = hasValue(f.consultProcess) || hasValue(f.pricingNote) || pricingItemsHTML;
   const hasBringSection = hasValue(f.whatToBring);
 
-  const consultSection = hasConsultSection ? `<section class="block"><h3>Consultation & fees</h3>${consultProcessP}${pricingItemsHTML || pricingNoteP}${feeDisclaimerP}</section>` : '';
+  const consultSection = hasConsultSection ? `<section class="block"><h3>Consultation & fees</h3>${consultProcessP}${pricingItemsHTML}${pricingNoteP}${feeDisclaimerP}</section>` : '';
   const bringSection = hasBringSection ? `<section class="block"><h3>Good to bring to the first call</h3><p>${f.whatToBring}</p></section>` : '';
 
   let twoColHTML = '';

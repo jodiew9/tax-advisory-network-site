@@ -5,6 +5,15 @@ const FIRMS = require('./data/firms');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Keep every page and API response out of search engines.
+app.use((req, res, next) => {
+  res.set('X-Robots-Tag', 'noindex, nofollow, noarchive');
+  next();
+});
+app.get('/robots.txt', (req, res) => {
+  res.type('text/plain').send('User-agent: *\nDisallow: /\n');
+});
+
 // Basic sanity check on the id shape (Airtable record ids: "rec" + 14 alphanumeric chars).
 // This isn't a security boundary by itself, just avoids doing lookups on garbage input.
 const ID_PATTERN = /^rec[a-zA-Z0-9]{14,}$/;

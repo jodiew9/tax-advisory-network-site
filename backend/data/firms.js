@@ -810,6 +810,11 @@ module.exports = [
         "name": "UK tax returns",
         "fee": "from GBP 2,500 + VAT",
         "description": "Where UK tax compliance is required."
+      },
+      {
+        "name": "Hourly rates",
+        "fee": "GBP 126–908/hour + VAT",
+        "description": "The rate depends on seniority, from Associate to Partner."
       }
     ],
     "pricingNote": "Fees are based on hourly rates and scoped case by case, and anticipated fees are agreed in writing before services begin. All fees exclude VAT and a 2.86% Compliance and Administrative Fee.",

@@ -785,37 +785,42 @@ module.exports = [
     "flag": "🇬🇧",
     "city": "London",
     "status": "Under Review",
-    "about": "Blick Rothenberg is a London-based tax, accounting and business advisory firm founded in 1945, with more than 700 professionals and over 70 partners and directors. Its US/UK Private Client team of dual-qualified advisors handles combined US and UK personal tax for individuals, families and business owners, including US citizens living in the UK, non-UK domiciled individuals, and trusts and estates.",
-    "idealClient": "UK-resident employees with equity compensation or cross-border personal tax questions, especially US citizens or green card holders living in the UK, individuals with both US and UK tax exposure, and complex cases involving trusts, estates or non-UK domicile.",
+    "about": "Blick Rothenberg is a tax, accounting and business advisory firm established in 1945, with over 80 partners and directors and more than 800 staff. It provides partner-led advice tailored to each client’s circumstances. As part of the Azets Group and a member of Allinial Global, a network of more than 272 firms in 110+ countries, it combines relationship-led service with international reach.",
+    "idealClient": "Employees based in the UK, or moving to or from the UK, with equity compensation (including option agreements), liquidity-event questions, estate planning and wealth transfer needs, and cross-border personal tax matters.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
-      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
       "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Annual tax filing",
       "Cross-border / expatriate tax",
-      "Foreign account reporting",
       "Estate & wealth transfer planning",
-      "Annual tax filing"
+      "Business ownership / self-employment"
     ],
     "languages": "English",
     "years": "80+ years",
     "yearsLabel": "Firm age",
-    "credentials": "Dual-qualified US/UK tax advisors",
-    "membership": "ICAEW",
-    "consultFee": "60 min GBP 534 + VAT",
-    "consultProcess": "The initial consultation is up to 60 minutes, charged at a blended rate of about GBP 534 + VAT plus a 2.86% Compliance and Administrative Fee.",
+    "credentials": "Not specified",
+    "membership": "Not specified",
+    "consultFee": "60 min GBP 1,500 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes, charged at GBP 1,500 + VAT.",
     "whatToBring": "Not specified",
-    "busySeason": "Not specified",
+    "busySeason": "December – January",
     "responseTime": "1–2 weeks",
     "pricingItems": [
       {
-        "name": "Hourly rates",
-        "fee": "GBP 126–908/hour + VAT",
-        "description": "The rate depends on seniority, from Associate to Partner. A 2.86% Compliance and Administrative Fee also applies."
+        "name": "UK tax returns",
+        "fee": "from GBP 2,500 + VAT",
+        "description": "Where UK tax compliance is required."
       }
     ],
-    "pricingNote": "Fees are scoped on a case by case basis, and agreed upon with the member in writing before services begin.",
-    "website": "https://www.blickrothenberg.com/services/us-uk-private-client/",
-    "privacyPolicy": "https://www.blickrothenberg.com/privacy-policy/"
+    "pricingNote": "Fees are based on hourly rates and scoped case by case, and anticipated fees are agreed in writing before services begin. All fees exclude VAT and a 2.86% Compliance and Administrative Fee.",
+    "website": "https://www.blickrothenberg.com/",
+    "privacyPolicy": "https://www.blickrothenberg.com/privacy-policy/",
+    "credentialsList": [
+      "Chartered Tax Advisor (CIOT)",
+      "Chartered Accountant (ICAEW)",
+      "Society of Trust and Estate Practitioners (STEP)",
+      "Enrolled Agent (for US tax returns)"
+    ]
   },
   {
     "id": "tokyoadvisory",
@@ -928,14 +933,14 @@ module.exports = [
       "Estate & wealth transfer planning",
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Business ownership / self-employment",
-      "Retirement / pensions"
+      "Cross-border / expatriate tax"
     ],
     "languages": "English",
     "years": "40+ years",
     "yearsLabel": "Firm age",
     "credentials": "Attorneys (J.D.); the Tax Group is led by an attorney with an LL.M. in Taxation",
     "membership": "Admitted in New York; ABA and New York State Bar Association Tax Sections",
-    "consultFee": "60 min from USD 500",
+    "consultFee": "60 min from USD 675",
     "consultProcess": "Initial consultations are typically free and run 20–30 minutes. Advice is limited before the firm is formally engaged.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",

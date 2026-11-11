@@ -1017,5 +1017,43 @@ module.exports = [
     "pricingNote": "Scope and fees are agreed on a case by case basis.",
     "website": "https://maisto.it/en/index.html",
     "privacyPolicy": "https://www.maisto.it/en/cookies-politics.html"
+  },
+  {
+    "id": "williamfry",
+    "airtableId": "recrYQapYtoUjSwgl",
+    "name": "William Fry",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "city": "Dublin (head office) · Cork",
+    "status": "Under Review",
+    "about": "William Fry is an Irish law firm founded in 1847, with over 350 legal and tax professionals. Its tax department, William Fry Tax Advisors, brings tax lawyers, accountants and consultants into one team and advises individuals on private client and personal tax planning, employee benefits and remuneration, and personal tax compliance. It is the Taxand member firm in Ireland.",
+    "idealClient": "Ireland-resident employees with equity compensation, personal tax planning or cross-border tax questions, including cases that need combined legal and tax advice.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Annual tax filing"
+    ],
+    "languages": "English",
+    "years": "175+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Solicitors, Chartered Accountants and Chartered Tax Advisers (CTA)",
+    "membership": "Law Society of Ireland; Irish Tax Institute; Chartered Accountants Ireland",
+    "consultFee": "60 min from EUR 500 + VAT",
+    "consultProcess": "There is no charge for an initial consultation of up to 60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "EUR 260–695/hour + VAT",
+        "description": "The rate depends on seniority, from trainee to partner, and includes a 10% referral discount on 2026 standard rates."
+      }
+    ],
+    "pricingNote": "Follow-up consultations, written memos, tax return preparation and other services are priced per engagement.",
+    "website": "https://www.williamfry.com/practice-area/tax/",
+    "privacyPolicy": "https://www.williamfry.com/privacy-statement/"
   }
 ];

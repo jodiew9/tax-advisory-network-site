@@ -1075,5 +1075,49 @@ module.exports = [
     "pricingNote": "Follow-up consultations, written memos, tax return preparation and other services are priced per engagement.",
     "website": "https://www.williamfry.com/practice-area/tax/",
     "privacyPolicy": "https://www.williamfry.com/privacy-statement/"
+  },
+  {
+    "id": "ghj",
+    "airtableId": "reca3jb3bid7skZMS",
+    "name": "GHJ (Green Hasson & Janks LLP)",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Los Angeles (headquarters)",
+    "status": "Under Review",
+    "about": "GHJ (Green Hasson & Janks LLP) is a national advisory, tax and accounting firm founded in 1953 and headquartered in Los Angeles, and an independent member of the HLB international network. Its High Net Worth Practice provides year-round tax planning and preparation for individuals, trusts and estates, including equity compensation, estate and gift tax, multi-state residency, charitable giving and business exit planning. It was named a 2026 Best of the Best CPA Firm by INSIDE Public Accounting and ranked #11 among Los Angeles County accounting firms by the Los Angeles Times.",
+    "idealClient": "US members with complex individual tax needs, such as significant equity compensation, multi-state residency, estate and trust planning, or a business sale, who want ongoing planning as well as return preparation.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment",
+      "Annual tax filing"
+    ],
+    "languages": "English",
+    "years": "70+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Certified Public Accountants (CPA)",
+    "membership": "Independent member of HLB International",
+    "consultFee": "60 min USD 525",
+    "consultProcess": "Fees may be fixed or hourly, depending on the engagement.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "USD 170–875/hour",
+        "description": "The rate depends on seniority, from staff to partner."
+      },
+      {
+        "name": "Individual income tax returns",
+        "fee": "USD 5,000–20,000+",
+        "description": "Depends on complexity."
+      }
+    ],
+    "pricingNote": "Not specified",
+    "website": "https://www.ghjadvisors.com/industries/high-net-worth",
+    "privacyPolicy": "https://www.ghjadvisors.com/privacy-policy"
   }
 ];

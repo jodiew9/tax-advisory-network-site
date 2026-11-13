@@ -182,7 +182,7 @@ module.exports = [
     "credentials": "No specific certification is required for tax advisory in Spain; both partners hold a university degree",
     "membership": "Not specified",
     "consultFee": "60 min EUR 150 + VAT",
-    "consultProcess": "A 30-minute initial consultation is EUR 90 (VAT included), with meeting notes always provided.",
+    "consultProcess": "The initial consultation is 30 minutes, with meeting notes always provided.",
     "whatToBring": "Varies by client need; the firm typically doesn’t require much information in advance and discusses details during the call.",
     "busySeason": "June – tax filing.",
     "responseTime": "1 week",
@@ -423,7 +423,7 @@ module.exports = [
     "locationSuffix": "(also Miami, Florida and Tel Aviv)",
     "pricingItems": [
       {
-        "name": "Initial consultation (30 min)",
+        "name": "Consultation (30 min)",
         "fee": "EUR 250 + VAT"
       },
       {
@@ -460,14 +460,20 @@ module.exports = [
     "credentials": "Avocat à la Cour (French bar)",
     "membership": "Not specified",
     "consultFee": "60 min EUR 630 + VAT",
-    "consultProcess": "The initial consultation is up to 60 minutes, charged at EUR 1,500 + VAT.",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
     "whatToBring": "Equity documents (grant agreements, plan summaries, vesting schedules, recent statements), recent tax returns, a list of countries you’ve lived or worked in with dates, any existing advisors or structures, and your key questions and deadlines.",
     "busySeason": "Not specified",
     "responseTime": "1–2 weeks",
     "pricingNote": "Fees are scoped on a case by case basis, and agreed upon with the member in writing before services begin.",
     "website": "https://arsene-taxand.com/en/",
     "privacyPolicy": "Not specified",
-    "yearsLabel": "Firm age"
+    "yearsLabel": "Firm age",
+    "pricingItems": [
+      {
+        "name": "Hourly rate",
+        "fee": "EUR 630/hour + VAT"
+      }
+    ]
   },
   {
     "id": "yasuda",
@@ -654,7 +660,7 @@ module.exports = [
     "credentials": "German-qualified lawyers (Rechtsanwälte), tax advisors (Steuerberater), and auditors (Wirtschaftsprüfer)",
     "membership": "Regional Bar (Rechtsanwaltskammer), Chamber of Tax Advisors (Steuerberaterkammer), and, where applicable, Chamber of Auditors (Wirtschaftsprüferkammer)",
     "consultFee": "60 min EUR 750 + VAT",
-    "consultProcess": "The initial consultation is paid, charged as a lump sum of EUR 500 + VAT, and typically lasts 30–60 minutes.",
+    "consultProcess": "The initial consultation is paid and typically lasts 30–60 minutes.",
     "whatToBring": "Relevant documents and background information, including your employment contract, equity compensation agreement, and last income tax assessments and declarations; an overview of the jurisdictions in which you have (or in the last 5 years had) tax liabilities; an overview of your assets and income; your family situation (including any prenup); any position in a trust, foundation, personal company, or partnership; and any intended wealth transfers.",
     "busySeason": "Not specified",
     "responseTime": "> 1 week",
@@ -687,7 +693,7 @@ module.exports = [
     "credentials": "Lawyers and certified public accountants (C.P.A.s)",
     "membership": "Not specified",
     "consultFee": "60 min USD 730",
-    "consultProcess": "The initial consultation is 60 minutes, charged at USD 1,500.",
+    "consultProcess": "The initial consultation is 60 minutes.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",
     "responseTime": "1–2 weeks",
@@ -811,8 +817,8 @@ module.exports = [
     "yearsLabel": "Firm age",
     "credentials": "Not specified",
     "membership": "Not specified",
-    "consultFee": "60 min GBP 1,500 + VAT",
-    "consultProcess": "The initial consultation is up to 60 minutes, charged at GBP 1,500 + VAT.",
+    "consultFee": "60 min GBP 126–908 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
     "whatToBring": "Not specified",
     "busySeason": "December – January",
     "responseTime": "1–2 weeks",
@@ -874,7 +880,7 @@ module.exports = [
     "responseTime": "1–2 weeks",
     "pricingItems": [
       {
-        "name": "Initial and follow-up consultations",
+        "name": "Consultation (per 60-min session)",
         "fee": "JPY 30,000 per 60-min session"
       },
       {
@@ -1009,7 +1015,7 @@ module.exports = [
     "credentials": "Italian lawyers (Avvocati) admitted to the Bar, several with LL.M. degrees in tax; some members are Chartered Accountants (Dottori Commercialisti)",
     "membership": "Ordine degli Avvocati (Italian Bar)",
     "consultFee": "60 min EUR 500 + VAT",
-    "consultProcess": "The initial consultation is up to 60 minutes, charged at a blended rate of about EUR 500 + VAT.",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",
     "responseTime": "1–2 weeks",

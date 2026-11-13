@@ -1137,8 +1137,7 @@ module.exports = [
       "Business ownership / self-employment"
     ],
     "languages": "French, Dutch, English",
-    "years": "6 years",
-    "yearsLabel": "Firm age",
+    "years": "20+ years",
     "credentials": "Lawyers admitted to the Brussels Bar; the senior partner is also admitted to the Belgian Supreme Court Bar (Cour de cassation)",
     "membership": "Brussels Bar",
     "consultFee": "60 min from EUR 300 + VAT",
@@ -1155,6 +1154,6 @@ module.exports = [
     ],
     "pricingNote": "A 5% office expenses charge applies on top of the hourly fees.",
     "website": "https://www.arteo.law",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "https://arteo.law/privacy-en/?lang=en"
   }
 ];

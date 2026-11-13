@@ -82,6 +82,7 @@
   .qf-grid:empty + .qf-full{ border-top:none; }
   .qf .label, .qf-full .label{ font-size:11px; color:var(--muted); margin-bottom:4px; }
   .qf .value, .qf-full .value{ font-size:13.5px; color:var(--ink); }
+  .qf .note{ font-size:11.5px; line-height:1.35; color:var(--teal); margin-top:3px; }
 
   section.block{ margin-bottom:30px; }
   section.block h3{ font-size:14px; font-weight:600; font-family:'IBM Plex Sans', sans-serif; color:var(--teal); margin:0 0 10px; padding-bottom:8px; border-bottom:1px solid var(--line); }
@@ -173,12 +174,12 @@ function renderDetail(){
   if(hasValue(f.years)) shortFacts.push([f.yearsLabel || 'Years of experience', f.years]);
   if(hasValue(f.responseTime)) shortFacts.push(['Time to schedule a meeting', f.responseTime]);
   if(hasValue(f.languages)) shortFacts.push(['Languages', f.languages]);
-  if(hasValue(f.consultFee)) shortFacts.push([f.consultFeeLabel || 'Typical consultation', f.consultFee]);
+  if(hasValue(f.consultFee)) shortFacts.push([f.consultFeeLabel || 'Typical consultation', f.consultFee, hasValue(f.consultFeeNote) ? f.consultFeeNote : '']);
   const membershipValue = hasValue(f.membership) ? f.membership.replace(/\.\s*$/, '') : null;
 
   const quickfactsHTML = (shortFacts.length || membershipValue) ? `
     <div class="quickfacts">
-      <div class="qf-grid">${shortFacts.map(([label,value])=>`<div class="qf"><div class="label">${label}</div><div class="value">${value}</div></div>`).join('')}</div>
+      <div class="qf-grid">${shortFacts.map(([label,value,note])=>`<div class="qf"><div class="label">${label}</div><div class="value">${value}</div>${note ? `<div class="note">${note}</div>` : ''}</div>`).join('')}</div>
       ${membershipValue ? `<div class="qf-full"><div class="label">Professional membership</div><div class="value">${membershipValue}</div></div>` : ''}
     </div>` : '';
 

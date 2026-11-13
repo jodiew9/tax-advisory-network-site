@@ -95,11 +95,13 @@
   .website-link{ font-size:13px; color:var(--teal); text-decoration:none; border-bottom:1px solid var(--teal); }
 
   .pricing-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:14px; }
-  .pricing-item .pricing-head{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:4px 12px; font-size:13.5px; color:var(--ink); font-weight:600; }
-  .pricing-item .pricing-fee{ color:var(--teal); font-weight:600; white-space:nowrap; font-size:13px; }
-  .pricing-item .pricing-desc{ margin:4px 0 0; font-size:12.5px; color:var(--muted); }
+  .pricing-item .pricing-head{ display:flex; flex-wrap:wrap; justify-content:space-between; align-items:baseline; gap:4px 12px; font-size:14px; color:var(--ink); font-weight:600; }
+  .pricing-item .pricing-fee{ color:var(--teal); font-weight:600; white-space:nowrap; font-size:14px; }
+  .pricing-item .pricing-desc{ margin:4px 0 0; font-size:13px; line-height:1.5; color:var(--muted); }
+  section.block p + .pricing-list{ margin-top:16px; }
+  section.block p.fee-note{ font-size:13px; line-height:1.55; color:var(--ink-soft); margin:16px 0 0; }
 
-  section.block p.fee-disclaimer{ font-size:12.5px; color:var(--muted); margin:12px 0 0; }
+  section.block p.fee-disclaimer{ font-size:13px; color:var(--muted); margin:12px 0 0; }
 
   .credentials-list{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:8px; }
   .credentials-list li{ font-size:13.5px; color:var(--ink-soft); padding-left:14px; position:relative; }
@@ -199,7 +201,8 @@ function renderDetail(){
     </section>` : '';
 
   const consultProcessP = hasValue(f.consultProcess) ? `<p>${f.consultProcess}</p>` : '';
-  const pricingNoteP = hasValue(f.pricingNote) ? `<p>${f.pricingNote}</p>` : '';
+  const hasPricingItems = !!(f.pricingItems && f.pricingItems.length);
+  const pricingNoteP = hasValue(f.pricingNote) ? `<p${hasPricingItems ? ' class="fee-note"' : ''}>${f.pricingNote}</p>` : '';
   const pricingItemsHTML = (f.pricingItems && f.pricingItems.length) ? `
     <ul class="pricing-list">${f.pricingItems.map(item => `
       <li class="pricing-item">

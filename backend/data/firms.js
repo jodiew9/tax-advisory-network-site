@@ -1119,5 +1119,42 @@ module.exports = [
     "pricingNote": "Not specified",
     "website": "https://www.ghjadvisors.com/industries/high-net-worth",
     "privacyPolicy": "https://www.ghjadvisors.com/privacy-policy"
+  },
+  {
+    "id": "arteo",
+    "airtableId": "recRu8F9pWE33nrPI",
+    "name": "Arteo Law SRL/BV",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "city": "Brussels",
+    "status": "Active",
+    "about": "Arteo is a Belgian tax boutique law firm founded in 2020, with about 25 lawyers including 9 partners, several of whom have more than 20 years of experience. It covers Belgian tax law, including personal income tax, estate planning, employee benefits and incentive plans, and tax litigation. It advises only on Belgian tax law, and is a member of the Taxand network for multi-jurisdictional questions.",
+    "idealClient": "Members with Belgian tax questions, such as equity and incentive plans, estate planning and cross-border situations. For multi-jurisdictional questions, Arteo coordinates with foreign Taxand member firms.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment"
+    ],
+    "languages": "French, Dutch, English",
+    "years": "6 years",
+    "yearsLabel": "Firm age",
+    "credentials": "Lawyers admitted to the Brussels Bar; the senior partner is also admitted to the Belgian Supreme Court Bar (Cour de cassation)",
+    "membership": "Brussels Bar",
+    "consultFee": "60 min from EUR 300 + VAT",
+    "consultProcess": "Initial calls typically run 30–60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1 week",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "EUR 200–500/hour + VAT",
+        "description": "The rate depends on seniority, from junior associate to partner. These are 2026 rates."
+      }
+    ],
+    "pricingNote": "A 5% office expenses charge applies on top of the hourly fees.",
+    "website": "https://www.arteo.law",
+    "privacyPolicy": "Not specified"
   }
 ];

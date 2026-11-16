@@ -1155,5 +1155,41 @@ module.exports = [
     "pricingNote": "A 5% office expenses charge applies on top of the hourly fees.",
     "website": "https://www.arteo.law",
     "privacyPolicy": "https://arteo.law/privacy-en/?lang=en"
+  },
+  {
+    "id": "elp",
+    "airtableId": "rec3aHb6XRTx8rJ3K",
+    "name": "Economic Laws Practice",
+    "country": "India",
+    "flag": "🇮🇳",
+    "city": "Mumbai · Delhi NCR · Bengaluru · Pune · Ahmedabad · Chennai · GIFT City",
+    "status": "Active",
+    "about": "Economic Laws Practice (ELP) is a full-service Indian law firm set up in 2001, with 300+ qualified professionals and offices across India. It is the India member of Taxand, and its tax practice covers direct tax, transfer pricing and indirect tax, including cross-border structuring. ELP is recognized as a top-tier firm by Chambers Global, Legal 500, IFLR1000 and Asia Law Profiles.",
+    "idealClient": "India-resident employees with equity compensation (including ESOPs and RSUs from Indian or foreign employers), cross-border or tax residency questions, or a liquidity event, especially higher-complexity cases that need combined legal and tax advice.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning"
+    ],
+    "languages": "English, Hindi",
+    "years": "25 years",
+    "yearsLabel": "Firm age",
+    "credentials": "Lawyers (advocates) and Chartered Accountants",
+    "membership": "Bar Council of India (advocates); Institute of Chartered Accountants of India (chartered accountants)",
+    "consultFee": "60 min EUR 325",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1 week",
+    "pricingItems": [
+      {
+        "name": "Hourly rate",
+        "fee": "EUR 325/hour"
+      }
+    ],
+    "pricingNote": "Not specified",
+    "website": "https://elplaw.in/",
+    "privacyPolicy": "https://elplaw.in/data-protection-dashboard-home/"
   }
 ];

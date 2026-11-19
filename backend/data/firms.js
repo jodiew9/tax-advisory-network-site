@@ -1191,5 +1191,43 @@ module.exports = [
     "pricingNote": "Not specified",
     "website": "https://elplaw.in/",
     "privacyPolicy": "https://elplaw.in/data-protection-dashboard-home/"
+  },
+  {
+    "id": "rivettax",
+    "airtableId": "recrFnd31CZCUSy0t",
+    "name": "Rivet Tax",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Remote (support by Slack, email or Zoom)",
+    "status": "Under Review",
+    "about": "Rivet Tax Inc. is a US tax preparation firm serving tech companies and their founders, executives and employees, with 40+ accountants from Big Four and national firms. It prepares federal and state returns (Form 1040 and 1040-NR) in all 50 states, covering equity compensation, multi-state income, investments, crypto and foreign accounts, and sets quarterly estimated payments. Rivet is a tax filing service, not a source of standalone tax advice.",
+    "idealClient": "US members who need federal and state returns prepared and filed, especially where equity compensation (RSUs, ISOs, NSOs, ESPP), a tender offer or liquidity event, a mid-year move between states, or foreign accounts make the return more complex.",
+    "services": [
+      "Annual tax filing",
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Foreign account reporting"
+    ],
+    "languages": "English",
+    "years": "Not specified",
+    "credentials": "Certified Public Accountants (CPA) and Enrolled Agents (EA)",
+    "membership": "Not specified",
+    "consultFee": "Fee based: from USD 1,800",
+    "consultFeeNote": "Free initial call",
+    "consultProcess": "Not specified",
+    "whatToBring": "Not specified",
+    "busySeason": "The cutoff for new filings is about 2–3 weeks before April 15. After that, an extension is filed and the return is finished by October 15.",
+    "responseTime": "Under 1 week",
+    "pricingItems": [
+      {
+        "name": "Annual tax filing engagement",
+        "fee": "from USD 1,800",
+        "description": "One flat annual fee covering filing, strategy, advisory and unlimited 30-minute team check-ins."
+      }
+    ],
+    "pricingNote": "Pricing is agreed before work starts. There is no hourly billing.",
+    "website": "https://www.rivet.tax/personal-tax",
+    "privacyPolicy": "https://www.rivet.tax/privacy-policy"
   }
 ];

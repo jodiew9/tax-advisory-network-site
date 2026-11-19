@@ -8,7 +8,7 @@ module.exports = [
     "city": "Zug, CH",
     "status": "Need MoU",
     "about": "Founded in 2014, Taxolution is a four-advisor tax firm specializing in expats in Switzerland. It is the highest-rated Swiss tax firm on Google, with clients across the tech, pharma, and industrial sectors, and uses a custom CRM and client portal to process a high volume of cases efficiently. The firm files tax returns in all Swiss cantons, with a client base spanning the country.",
-    "idealClient": "Individuals living in Switzerland with international backgrounds and complex financial situations — ranging from newcomers with a single job and a couple of bank accounts, to people receiving RSUs with several bank and investment accounts and property abroad, to complex cases involving multi-jurisdiction equity vesting and cantonal tax rulings.",
+    "idealClient": "Individuals living in Switzerland with international backgrounds and complex financial situations, from newcomers with one job and two bank accounts, to people receiving RSUs with 5–10 bank accounts, several investment accounts, and 1–2 properties abroad, to complex cases involving multi-jurisdiction equity vesting and cantonal tax rulings.",
     "services": [
       "Annual tax filing",
       "Cross-border / expatriate tax",
@@ -17,13 +17,14 @@ module.exports = [
       "Business ownership / self-employment"
     ],
     "languages": "English, German, French, Arabic",
-    "years": "10",
+    "years": "10 years",
     "credentials": "The team consists of Swiss tax specialists with LL.M. degrees and professionals trained in business law",
     "membership": "Member of TreuhandSuisse, which requires professional degrees as well as professional insurances.",
-    "consultFee": "Fee based – CHF 700–2,900 + VAT",
-    "consultProcess": "Taxolution offers fixed, tier-based pricing for Swiss tax return services, currently ranging from CHF 700 to CHF 2,900 (VAT not included), based on factors such as income sources, investments, property, relocation, equity compensation, and self-employment. Employees can determine their price upfront using the <a href=\"http://taxolution.ch/pricing\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--teal);\">Taxolution online price calculator</a>, then access the MyTaxolution portal and schedule a free initial consultation; fees are billed only after the tax return is filed. The tier price includes tax optimization analysis and full English-language guidance; services outside the tax return, such as tax rulings, written memos, scenario analyses, or representation, are quoted separately.",
+    "consultFee": "Fee based: CHF 700–2,900 + VAT",
+    "consultFeeNote": "Free initial call",
+    "consultProcess": "Taxolution offers fixed, tier-based pricing for Swiss tax return services, currently ranging from CHF 700–2,900 (VAT not included), based on factors such as income sources, investments, property, relocation, equity compensation, and self-employment. Employees can determine their price upfront using the <a href=\"http://taxolution.ch/pricing\" target=\"_blank\" rel=\"noopener\" style=\"color:var(--teal);\">Taxolution online price calculator</a>, then access the MyTaxolution portal and schedule a free initial consultation; fees are billed only after the tax return is filed. The tier price includes tax optimization analysis and full English-language guidance; services outside the tax return, such as tax rulings, written memos, scenario analyses, or representation, are quoted separately.",
     "whatToBring": "Little preparation is needed — a simple timeline of Swiss registration, employment start date, and other relevant dates helps the firm confirm tax residency, which usually comes up naturally during the call.",
-    "busySeason": "March, April, and sometimes July and September, when delivery time can run 1-2 weeks instead of the usual turnaround — still much faster than the industry standard.",
+    "busySeason": "March, April, and sometimes July and September, when delivery time can run 1–2 weeks instead of the usual turnaround — still much faster than the industry standard.",
     "responseTime": "> 1 week",
     "pricingNote": "Not specified",
     "website": "https://www.taxolution.ch",
@@ -37,8 +38,8 @@ module.exports = [
     "flag": "🇬🇧",
     "city": "London",
     "status": "Need MoU",
-    "about": "Taxd is a UK-based digital tax and accounting firm founded in 2021, with a small team of around six tax and accounting advisers supported by software developers and operations staff. It specializes in technology-assisted UK tax compliance and advisory work — particularly Self Assessment, property tax, expatriate and non-resident matters, partnerships, and owner-managed companies — and is currently growing its team.",
-    "idealClient": "Clients span the full range of complexity, from straightforward single-country filers to individuals with income, assets, or equity across multiple jurisdictions. The firm's software is designed to handle most cases efficiently, while more complex cross-border or planning needs are routed to its specialist advisory service, with human support available throughout.",
+    "about": "Taxd is a UK-based digital tax and accounting firm founded in 2021, with a small team of around six tax and accounting advisors supported by software developers and operations staff. It specializes in technology-assisted UK tax compliance and advisory work — particularly Self Assessment, property tax, expatriate and non-resident matters, partnerships, and owner-managed companies — and is currently growing its team.",
+    "idealClient": "Clients span the full range of complexity, from straightforward single-country filers to individuals with income, assets, or equity across multiple jurisdictions. The firm’s software is designed to handle most cases efficiently, while more complex cross-border or planning needs are routed to its specialist advisory service, with human support available throughout.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Annual tax filing",
@@ -51,12 +52,13 @@ module.exports = [
     "years": "11 years",
     "credentials": "ATT, team members who are ACCA, and junior staff progressing toward CTA and ACCA",
     "membership": "ATT.",
-    "consultFee": "30 min £299 + VAT",
+    "consultFee": "30 min GBP 299 + VAT",
+    "consultFeeNote": "Free initial call (15 min)",
     "consultProcess": "The initial 15-minute intro call is free; IPO and cross-border equity advice is priced separately by agreement.",
     "whatToBring": "Little is needed in advance — some background is helpful, and the team will ask any further questions during the call.",
     "busySeason": "October – tax filing.",
-    "responseTime": "1-2 weeks",
-    "pricingNote": "£99 for software filing use, £495 for private tax return support. A range of fixed fee calls focused on expats from £299–£499.",
+    "responseTime": "1–2 weeks",
+    "pricingNote": "GBP 99 for software filing use; GBP 495 for private tax return support. Fixed-fee calls focused on expats range from GBP 299–499.",
     "website": "https://www.taxd.co.uk/personal",
     "privacyPolicy": "https://www.taxd.co.uk/privacy-policy"
   },
@@ -66,10 +68,10 @@ module.exports = [
     "name": "TaxQube Accountants London",
     "country": "United Kingdom",
     "flag": "🇬🇧",
-    "city": "5th Floor, 167-169 Great Portland Street, London, Westminster, W1W 5PF",
+    "city": "5th Floor, 167–169 Great Portland Street, London, Westminster, W1W 5PF",
     "status": "Need MoU",
-    "about": "TaxQube is a boutique-style, partner-led private firm based in London that supports high-income clients in maintaining compliance and enhancing tax efficiency. The customer service approach is tailored to each client based on their profile; a cost-effective monthly retainer is offered to enable clients to stay in control of the professional charges. The systems and processes have been developed over a number of years to provide ongoing support and tax code management to handle various high earner tax aspects like personal allowance, pension contributions, childcare eligibility, equity disposals both UK and offshore, and other tax planning techniques.",
-    "idealClient": "Individuals with high income that includes RSU compensation from private and listed companies, a company acquisition, or an options sale; those with tax code problems, underpayment of tax, or who are crossing the £100k threshold for the first time; and cross-border, globally mobile employees who already have a mobility report prepared by an external firm — including Morgan Stanley, eTrade, Shareworks, At Work, Charles Schwab, UBS, Computershare, Fidelity, JPM, Carta, Vested, and Optio incentive platforms.",
+    "about": "TaxQube is a boutique, partner-led firm in London that helps high-income clients stay compliant and improve tax efficiency. Service is tailored to each client’s profile, with a monthly retainer option to keep professional fees predictable. Its systems support ongoing tax code management and high-earner tax matters such as personal allowance, pension contributions, childcare eligibility, and equity disposals (UK and offshore).",
+    "idealClient": "High-income individuals with RSU compensation from private or listed companies, a company acquisition, or an options sale; those with tax code problems or underpaid tax, or crossing the GBP 100k threshold for the first time; and globally mobile employees who already have a mobility report from an external firm. Includes clients whose equity is held with providers such as Morgan Stanley, eTrade, Shareworks, At Work, Charles Schwab, UBS, Computershare, Fidelity, JPM, Carta, Vested, and Optio.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Annual tax filing",
@@ -78,17 +80,19 @@ module.exports = [
       "Cross-border / expatriate tax"
     ],
     "languages": "Not specified",
-    "years": "16",
+    "years": "16 years",
     "credentials": "Chartered Certified Accountant",
     "membership": "ACCA.",
-    "consultFee": "60 min £185–£250 + VAT",
-    "consultProcess": "The initial consultation is free and used to scope the work and build a client profile (no advice given); a paid consultation at £185/hour + VAT follows if advice is needed.",
+    "consultFee": "60 min GBP 185–250 + VAT",
+    "consultFeeNote": "Free initial call",
+    "consultProcess": "The initial consultation is free and used to scope the work and build a client profile (no advice given). If advice is needed, paid consultations are GBP 185 + VAT per hour.",
     "whatToBring": "General employment history, a high-level summary of earnings and income/gains, any expected changes in circumstances, details of ongoing HMRC issues if relevant, and the name of the broker managing the equity.",
     "busySeason": "October – tax filing.",
     "responseTime": "1 week",
-    "pricingNote": "Monthly retainers start from £110 + VAT (+client onboarding charge based on the client profile) — hourly rates are between £185 to £250 + VAT.",
+    "pricingNote": "Monthly retainers start from GBP 110 + VAT, plus a client onboarding charge based on the client profile. Hourly rates are GBP 185–250 + VAT.",
     "website": "https://taxqube.co.uk/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "worldwide-advisory",
@@ -98,8 +102,8 @@ module.exports = [
     "flag": "🇦🇺",
     "city": "Remote (Directors based in Brisbane, Australia)",
     "status": "Need MoU",
-    "about": "Worldwide Advisory is an Australian boutique tax and accounting advisory firm founded in 2019. The firm is led by two Partners, both Registered Tax Agents and CPA Australia members, and is supported by an accounting and bookkeeping team. The firm specialises in Australian cross-border and international tax matters, with particular expertise in Australian tax residency, expatriate and global mobility taxation, foreign income and investments, cross-border business structures, and the Australian tax implications of individuals and businesses operating across multiple jurisdictions. Worldwide Advisory advises Australian residents and non-residents, internationally mobile individuals, business owners and foreign businesses with Australian tax obligations. Its advice is focused on Australian taxation, with foreign-jurisdiction advice coordinated with appropriately qualified overseas advisers where required.",
-    "idealClient": "Worldwide Advisory is best suited to individuals and businesses with complex Australian cross-border tax matters, particularly where tax residency, assets, income, investments or business interests span multiple jurisdictions. Typical clients include Australians relocating overseas or returning to Australia, foreign nationals moving to Australia, expatriates and internationally mobile individuals, high-net-worth individuals with overseas assets, and business owners operating or expanding across borders. Worldwide Advisory is generally a better fit for clients requiring specialist cross-border analysis and advice than for straightforward, single-jurisdiction tax compliance.",
+    "about": "Worldwide Advisory is an Australian boutique tax and accounting advisory firm founded in 2019, led by two partners who are Registered Tax Agents and CPA Australia members. It specializes in Australian cross-border and international tax, including tax residency, expatriate and global mobility taxation, foreign income and investments, and cross-border business structures. It advises Australian residents and non-residents, internationally mobile individuals, business owners, and foreign businesses with Australian tax obligations, and coordinates foreign-jurisdiction advice with qualified overseas advisors where required.",
+    "idealClient": "Individuals and businesses with complex Australian cross-border tax matters, particularly where tax residency, assets, income, investments, or business interests span multiple jurisdictions. Typical clients include Australians relocating overseas or returning to Australia, foreign nationals moving to Australia, expatriates, high-net-worth individuals with overseas assets, and business owners operating across borders. The firm is a better fit for specialist cross-border advice than for straightforward single-jurisdiction compliance.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Cross-border / expatriate tax",
@@ -111,11 +115,12 @@ module.exports = [
     "credentials": "Registered Tax Agents – Tax Practitioners Board (Australia), Certified Practising Accountants (CPA Australia)",
     "membership": "CPA Australia.",
     "consultFee": "60 min AUD 1,500",
-    "consultProcess": "Initial enquiries are reviewed free of charge to confirm fit; where more assessment is needed to scope the work, a paid scoping engagement may be recommended, since substantive advice generally isn't given during a free introductory consultation.",
+    "consultFeeNote": "Free initial inquiry review",
+    "consultProcess": "Initial inquiries are reviewed at no charge to confirm fit. Where more assessment is needed to scope the work, a paid scoping engagement may be recommended; substantive advice is not generally given in free introductory consultations.",
     "whatToBring": "A concise summary of relevant countries, relocation or residency timeline, key assets and investments, and the specific Australian tax issues requiring advice, along with any prior tax returns or advice where available.",
     "busySeason": "Nov-Dec – tax filing.",
     "responseTime": "1 week",
-    "pricingNote": "Services are generally provided on a fixed-fee basis, with fees agreed in advance based on the scope and complexity of the matter. Cross-border advisory engagements commonly commence from approximately AUD 1,500–2,000, with more complex or multi-jurisdictional matters priced according to the work required.",
+    "pricingNote": "Fixed fees are generally agreed in advance based on scope and complexity. Cross-border advisory engagements commonly start from approximately AUD 1,500–2,000, with more complex or multi-jurisdictional matters priced according to the work required. Ongoing compliance, business advisory, and fractional CFO engagements are scoped and priced separately.",
     "website": "https://www.worldwideadvisory.au",
     "privacyPolicy": "Not specified"
   },
@@ -140,17 +145,19 @@ module.exports = [
       "Equity Compensation - Liquidity event planning (tender offer, IPO)"
     ],
     "languages": "English",
-    "years": "30",
+    "years": "30 years",
     "credentials": "Chartered Tax Advisers",
     "membership": "Italy",
-    "consultFee": "60 min €350 + VAT",
-    "consultProcess": "The initial 30-minute consultation is free; consultations thereafter are €350/hour (+ VAT). A flat fee is also available, depending on complexity. Individual tax return preparation: €1,000–€1,800.",
-    "whatToBring": "The firm aims to understand the client's needs and make a strategic assessment aligned with their long-term goals.",
+    "consultFee": "60 min EUR 400 + VAT",
+    "consultFeeNote": "Free initial call (30 min)",
+    "consultProcess": "The initial 30-minute consultation is free; consultations thereafter are EUR 400 + VAT per hour. A flat fee is also available, depending on complexity. Individual tax return preparation: EUR 1,000–1,800 + VAT.",
+    "whatToBring": "The firm aims to understand the client’s needs and make a strategic assessment aligned with their long-term goals.",
     "busySeason": "September – tax filing.",
     "responseTime": "1 week",
     "pricingNote": "Not specified",
     "website": "https://www.fatcacittadiniamericani.com/",
-    "privacyPolicy": "https://www.studiodotcom.it/privacy/"
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "albeatax",
@@ -160,7 +167,7 @@ module.exports = [
     "flag": "🇪🇸",
     "city": "Madrid",
     "status": "Need MoU",
-    "about": "Albea Tax was founded in 2020 by two partners — the firm's only advisors — both former EY employees with over 25 years of combined experience advising international companies and individuals on Spanish tax obligations. Its main expertise is taxation for employees and individuals with international tax implications, including equity-based compensation and international high-net-worth situations.",
+    "about": "Albea Tax was founded in 2020 by two partners, the firm’s only advisors, both former EY employees with 25+ years of combined experience advising international companies and individuals on Spanish tax obligations. Its main expertise is taxation for employees and individuals with international tax implications, including equity-based compensation and international high-net-worth situations.",
     "idealClient": "Most clients are individuals moving to and from Spain with international tax obligations, many with equity-based compensation, for whom the firm explains the tax implications of both the delivery and ongoing holding of it. It also works with some small companies on their obligations for employees relocating to or from Spain.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
@@ -170,18 +177,19 @@ module.exports = [
       "Equity Compensation - Liquidity event planning (tender offer, IPO)",
       "Equity Compensation - Multi-jurisdiction equity apportionment"
     ],
-    "languages": "Spanish and English",
-    "years": "6",
+    "languages": "Spanish, English",
+    "years": "6 years",
     "credentials": "No specific certification is required for tax advisory in Spain; both partners hold a university degree",
     "membership": "Not specified",
-    "consultFee": "60 min €150 + VAT",
-    "consultProcess": "A 30-minute initial consultation is €90 (VAT included), with meeting notes always provided.",
-    "whatToBring": "Varies by client need; the firm typically doesn't require much information in advance and discusses details during the call.",
+    "consultFee": "60 min EUR 150 + VAT",
+    "consultProcess": "The initial consultation is 30 minutes, with meeting notes always provided.",
+    "whatToBring": "Varies by client need; the firm typically doesn’t require much information in advance and discusses details during the call.",
     "busySeason": "June – tax filing.",
     "responseTime": "1 week",
-    "pricingNote": "The firm usually works with fixed fees; the hourly rate is €150 (+ VAT) where applicable. Individual tax return preparation: €350–€650 + VAT.",
+    "pricingNote": "The firm usually works with fixed fees; the hourly rate is EUR 150 + VAT where applicable. Individual tax return preparation: EUR 350–650 + VAT.",
     "website": "https://albeatax.com/",
-    "privacyPolicy": "https://albeatax.com/en/privacy-policy"
+    "privacyPolicy": "https://albeatax.com/en/privacy-policy",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "archipel",
@@ -203,10 +211,11 @@ module.exports = [
       "Annual tax filing"
     ],
     "languages": "English, Dutch",
-    "years": "10",
-    "credentials": "All advisors are members of the Dutch association of tax advisors and hold at least a master's degree in tax law or tax economics",
+    "years": "10 years",
+    "credentials": "All advisors are members of the Dutch association of tax advisors and hold at least a master’s degree in tax law or tax economics",
     "membership": "NOB",
-    "consultFee": "€1,250–€5,000 + VAT",
+    "consultFee": "EUR 1,250–5,000 + VAT",
+    "consultFeeNote": "Free initial call (30 min)",
     "consultProcess": "The initial 30-minute consultation is free.",
     "whatToBring": "Not specified",
     "busySeason": "Mar-May – tax filing.",
@@ -214,22 +223,22 @@ module.exports = [
     "pricingItems": [
       {
         "name": "Tax Residency & Dutch Tax Situation Analysis",
-        "fee": "€2,000–€3,500 ex VAT",
+        "fee": "EUR 2,000–3,500 + VAT",
         "description": "Determines Dutch tax residency status for the client/family, provides a high-level overview of how all income/wealth sources are taxed in the Netherlands, and establishes a structuring timeline ahead of the IPO."
       },
       {
-        "name": "Dynamic Modelling",
-        "fee": "€5,000 ex VAT",
+        "name": "Dynamic Modeling",
+        "fee": "EUR 5,000 + VAT",
         "description": "Builds a scenario model allowing the employee to input personal parameters to assess wealth tax impact across different investment choices."
       },
       {
         "name": "Estate & Succession Planning",
-        "fee": "€1,250 ex VAT (overview only)",
+        "fee": "EUR 1,250 + VAT (overview only)",
         "description": "Assists with drafting a will from a Dutch tax perspective, plus gift planning and trust-like structures; the firm recommends starting with a high-level overview before full planning is scoped separately."
       },
       {
         "name": "Compliance Support",
-        "fee": "~€1,250 ex VAT per employee",
+        "fee": "~EUR 1,250 + VAT per employee",
         "description": "Assists with filing required tax returns; scope depends on the structuring decisions made above."
       }
     ],
@@ -244,8 +253,8 @@ module.exports = [
     "flag": "🇨🇭",
     "city": "Zurich · Zug · Bern · Stans (consultations also available by video call)",
     "status": "Need MoU",
-    "about": "PrimeTax Ltd. is an independent Swiss tax advisory firm founded in 2010, with offices in Zurich, Zug, Bern and Stans. The firm has 23 employees, including eight partners. Together with its partner fiduciary firm, PrimeTax gives clients access to more than 100 professionals in tax advisory, compliance and accounting. PrimeTax is ranked in Chambers Europe and Global 2026. The firm advises corporations and individuals on Swiss direct and indirect taxes, with specific experience in employee equity compensation (plan set-up, tax rulings, payroll reporting and individual taxation of options, RSUs and shares), cross-border matters and tax disputes.",
-    "idealClient": "Individuals resident in Switzerland, or moving to or from Switzerland, with more complex tax situations — for example clients holding equity compensation (options, RSUs or shares), including from US or other foreign employers, or cross-border cases involving income earned in several countries. Clients approaching or following a liquidity event (IPO, tender offer or sale of shares) who need advice on the tax consequences and on the next steps. Clients who want their Swiss tax returns handled from a single source.",
+    "about": "PrimeTax is an independent Swiss tax advisory firm founded in 2010, with 23 employees (including eight partners) and offices in Zurich, Zug, Bern, and Stans. Together with its partner fiduciary firm, it gives clients access to 100+ professionals in tax advisory, compliance, and accounting. It is ranked in Chambers Europe and Global 2026 and advises corporations and individuals on Swiss direct and indirect taxes, with specific experience in employee equity compensation (plan set-up, tax rulings, payroll reporting, and individual taxation of options, RSUs, and shares), cross-border matters, and tax disputes.",
+    "idealClient": "Individuals resident in Switzerland, or moving to or from Switzerland, with more complex tax situations, such as equity compensation (options, RSUs, or shares), including from US or other foreign employers, or income earned in several countries. Also clients approaching or following a liquidity event (IPO, tender offer, or share sale) who need advice on the tax consequences, investing the proceeds, tax-efficient structuring of private wealth, and estate and succession planning (including inheritance and gift taxes), and clients who want their Swiss tax returns handled from a single source.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Equity Compensation - Liquidity event planning (tender offer, IPO)",
@@ -256,22 +265,24 @@ module.exports = [
       "Business ownership / self-employment"
     ],
     "languages": "English, German, French, Italian",
-    "years": "16+ years (since the firm's founding in 2010)",
+    "years": "16+ years",
     "credentials": "Not specified",
     "credentialsList": [
-      "Swiss Certified Tax Expert (dipl. Steuerexperte, Advanced Federal Diploma of Higher Education in Taxation) — held by 7 of the firm's 8 partners, plus 2 further team members",
-      "Attorneys at law admitted to the Swiss bar — 2 partners plus 1 team member",
-      "Further team qualifications include a doctorate in law, a DAS in VAT, and an LL.M. in International Tax Law (cand.)"
+      "Swiss Certified Tax Expert (dipl. Steuerexperte, Advanced Federal Diploma of Higher Education in Taxation; the Swiss equivalent of a chartered tax advisor) — held by 7 of the firm’s 8 partners and 2 further team members",
+      "Attorneys at law admitted to the Swiss bar — 2 partners and 1 team member",
+      "Further qualifications in the team include a doctorate in law, a DAS in VAT, and an LL.M. in International Tax Law"
     ],
-    "membership": "Member of PolyReg, a self-regulatory organisation under the Swiss Anti-Money Laundering Act recognised by FINMA. Tax advice is not a licensed profession in Switzerland and there is no mandatory national tax body.",
+    "membership": "PolyReg (self-regulatory organization recognized by FINMA). Tax advice is not a licensed profession in Switzerland, and there is no mandatory national tax body.",
     "consultFee": "60 min CHF 400 + VAT",
+    "consultFeeNote": "Free initial call (about 30 min)",
     "consultProcess": "Free introductory call of approx. 30 minutes (video or phone) to understand the situation and define the scope; substantive advice thereafter on a paid basis.",
-    "whatToBring": "In general, no documents are needed for the introductory call. The firm would like to hear about the client's situation: where they live and work, what type of equity or assets they hold, any upcoming event such as a liquidity event, sale or move, and the questions they would like answered. Specific details on the employee equity plan are appreciated.",
+    "whatToBring": "No documents are needed for the introductory call. Be ready to describe where you live and work (and any recent or upcoming change), what equity or assets you hold, any upcoming liquidity event, sale, or move, and the questions you want answered. Details of your employee equity plan, and the plan document itself, are helpful for an initial assessment.",
     "busySeason": "March – tax filing.",
     "responseTime": "1 week",
-    "pricingNote": "Services are generally billed on an hourly basis, with rates between CHF 380 and CHF 550 depending on seniority; the blended rate is typically around CHF 400 per hour. Fixed fees are available for predefined products such as tax returns. All fees are subject to a 3% administrative flat fee and VAT where applicable.",
+    "pricingNote": "Billed hourly at CHF 380–550 depending on seniority (blended rate typically around CHF 400). Fixed fees are available for predefined products such as tax returns, and a fee quote is usually provided in advance. All fees are subject to a 3% administrative flat fee and VAT where applicable.",
     "website": "https://www.primetax.ch",
-    "privacyPolicy": "https://www.primetax.ch/en/copyright/"
+    "privacyPolicy": "https://www.primetax.ch/en/copyright/",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "copilot",
@@ -294,11 +305,12 @@ module.exports = [
     "credentials": "CPA, CFP, and specialized tax training (CPA In Depth Tax program)",
     "membership": "CPA, CFP.",
     "consultFee": "60 min CAD 500",
-    "consultProcess": "The initial call is free and used to understand the client's situation and scope (no advice given); paid consultations are available for clients seeking advice directly.",
+    "consultFeeNote": "Free initial call",
+    "consultProcess": "The initial call is free and used to understand the client’s situation and scope (no advice given); paid consultations are available for clients seeking advice directly.",
     "whatToBring": "1) Background of facts (age, family, province, etc); 2) Income details (sources of income and amount); 3) Equity comp details (if any) — i.e. RSU vesting, stock option details like strike price, market value, etc.",
     "busySeason": "April – tax filing.",
     "responseTime": "< 1 week",
-    "pricingNote": "Generally, CAD 2,000 to CAD 4,000 for a tax strategy depending on complexity. Paid calls are also available at CAD 500/hr.",
+    "pricingNote": "Generally, CAD 2,000–4,000 for a tax strategy depending on complexity. Paid calls are also available at CAD 500 per hour.",
     "website": "https://copilottax.ca",
     "privacyPolicy": "Not specified"
   },
@@ -319,17 +331,19 @@ module.exports = [
       "Foreign account reporting"
     ],
     "languages": "English, Hungarian, Russian, Ukrainian, Mandarin Chinese, Lithuanian, Croatian, Brazilian Portuguese, Serbian, Bosnian",
-    "years": "17",
+    "years": "17 years",
     "credentials": "Chartered Accountants",
     "membership": "Chartered Accountants Ireland",
-    "consultFee": "Fee based – €500–€1,000 + VAT",
+    "consultFee": "Fee based: EUR 500–1,000 + VAT",
+    "consultFeeNote": "Free initial call (15–20 min)",
     "consultProcess": "The initial consultation is free, usually a 15–20 minute Teams session with a senior manager.",
     "whatToBring": "Equity information received from the company, payslips with share/RSU/ESPP information, and the final payslip of the reporting year (for 2026, the December 2026 payslip).",
     "busySeason": "October/November – tax filing.",
     "responseTime": "1 week",
-    "pricingNote": "Flat fee per tax return ranging from €500–€1,000 + VAT, depending on complexity.",
+    "pricingNote": "Flat fee per tax return ranging from EUR 500–1,000 + VAT, depending on complexity.",
     "website": "https://www.gallagherkeane.ie",
-    "privacyPolicy": "https://portal.gallagherkeane.ie/registration/V2pSOv5KqL1ypVqZ3xzUs7ydQAsf3fxf0Pp0yb1UXFDWGXWswNAcNCA"
+    "privacyPolicy": "https://portal.gallagherkeane.ie/registration/V2pSOv5KqL1ypVqZ3xzUs7ydQAsf3fxf0Pp0yb1UXFDWGXWswNAcNCA",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "shreyarao",
@@ -339,7 +353,7 @@ module.exports = [
     "flag": "🇮🇳",
     "city": "Bangalore",
     "status": "Active",
-    "about": "Shreya Rao and Associates was set up in January 2024 as a boutique Indian law practice specializing in cross-border tax and private client work. Over 85% of its work is cross-border, with a particular focus on clients connected to the US, UK, Middle East, and Singapore. The firm represents several marquee clients, including individuals on the Forbes India 100 Rich List, leading entrepreneurs and celebrities, and the institutions that work with them. It was named Boutique Legal Firm of the Year at the STEP Private Client Awards 2026, and its partner, Shreya Rao, is ranked Band 1 for Private Client Work by the Chambers HNW Guide, is an ACTEC International Fellow, and was a founding member of STEP in India.",
+    "about": "Shreya Rao and Associates is a boutique Indian law practice, set up in January 2024, specializing in cross-border tax and private client work. Over 85% of its work is cross-border, particularly for clients connected to the US, UK, Middle East, and Singapore. Clients include individuals on the Forbes India 100 Rich List, leading entrepreneurs and celebrities, and the institutions that work with them. The firm was named Boutique Legal Firm of the Year at the STEP Private Client Awards 2026. Partner Shreya Rao is ranked Band 1 for Private Client Work by the Chambers HNW Guide, is an ACTEC International Fellow, and was a founding member of STEP in India.",
     "idealClient": "The firm specializes in high-complexity cross-border cases for ultra-high-net-worth clients receiving, holding, or transacting in equity incentives. These clients are generally founders or C-suite employees with substantial equity stakes, frequently with connections to the US, UK, Middle East, or Singapore. The firm assists them with legal, tax, and regulatory support in relation to Indian legal issues.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
@@ -354,7 +368,7 @@ module.exports = [
     "consultProcess": "Hourly rates depend on seniority level.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",
-    "responseTime": "1-2 weeks",
+    "responseTime": "1–2 weeks",
     "pricingNote": "Not specified",
     "pricingItems": [
       {
@@ -386,8 +400,8 @@ module.exports = [
     "flag": "🇫🇷",
     "city": "Paris",
     "status": "Active",
-    "about": "Expand CPA is an accounting and tax advisory firm specializing in international mobility and cross-border taxation, with particular expertise in French tax matters. The firm supports individuals, executives, entrepreneurs, and internationally mobile families relocating to France from any country, as well as clients with ongoing international income, assets, or investments while residing in France. For outbound mobility from France, it has in-house U.S. tax expertise through its team of U.S. Certified Public Accountants. The team includes French chartered accountants (Experts-Comptables) and U.S. CPAs and operates internationally.",
-    "idealClient": "Internationally mobile individuals, executives, entrepreneurs, and families with French tax exposure. The firm is particularly well suited to individuals relocating to France from any jurisdiction who need help with French tax residency, compliance, investments, compensation, real estate, wealth taxation, or other cross-border matters. For individuals relocating from France to the United States, or otherwise subject to both French and U.S. taxation, Expand CPA can provide integrated French and U.S. tax support.",
+    "about": "Expand CPA is an accounting and tax advisory firm specializing in international mobility and cross-border taxation, with particular expertise in French tax matters. It supports individuals, executives, entrepreneurs, and internationally mobile families relocating to France, as well as clients with international income, assets, or investments while residing in France. For outbound moves from France, its U.S. CPAs provide in-house U.S. tax expertise. The team includes French chartered accountants (Experts-Comptables) and U.S. CPAs and operates internationally.",
+    "idealClient": "Internationally mobile individuals, executives, entrepreneurs, and families with French tax exposure, particularly those relocating to France from any jurisdiction who need help with French tax residency, compliance, investments, compensation, real estate, wealth taxation, or other cross-border matters. For individuals relocating from France to the United States, or subject to both French and U.S. taxation, the firm provides integrated French and U.S. tax support.",
     "services": [
       "Annual tax filing",
       "Foreign account reporting",
@@ -395,11 +409,11 @@ module.exports = [
       "Equity Compensation - RSU/ISO/NSO/ESPP"
     ],
     "languages": "French, English",
-    "years": "7",
+    "years": "7 years",
     "credentials": "French Expert-Comptable, U.S. Certified Public Accountant (CPA – Montana), IRS Certifying Acceptance Agent (CAA), Commissaire aux Comptes",
     "membership": "Not specified",
-    "consultFee": "30 min €250 + VAT",
-    "consultProcess": "Starting prices below exclude VAT. Fees are generally fixed based on the scope and complexity of the engagement; other services and more complex cross-border engagements are quoted individually following an initial review.",
+    "consultFee": "30 min EUR 250 + VAT",
+    "consultProcess": "Fees are generally fixed based on the scope and complexity of the engagement; other services and more complex cross-border engagements are quoted individually following an initial review.",
     "whatToBring": "Most recent French and/or U.S. tax returns, details of tax residency and relocation dates, income information, ownership interests in companies or partnerships, investment and retirement account information, details of foreign bank accounts and financial assets, and any relevant correspondence from French or U.S. tax authorities.",
     "busySeason": "March–May: French and U.S. individual tax filing season. September–October 15: U.S. extended filing deadline period.",
     "responseTime": "1 week",
@@ -409,18 +423,19 @@ module.exports = [
     "locationSuffix": "(also Miami, Florida and Tel Aviv)",
     "pricingItems": [
       {
-        "name": "Initial consultation (30 min)",
-        "fee": "€250"
+        "name": "Consultation (30 min)",
+        "fee": "EUR 250 + VAT"
       },
       {
         "name": "Written analysis",
-        "fee": "from €1,000"
+        "fee": "from EUR 1,000 + VAT"
       },
       {
         "name": "Tax returns",
-        "fee": "from €1,200 each"
+        "fee": "from EUR 1,200 each + VAT"
       }
-    ]
+    ],
+    "yearsLabel": "Firm age"
   },
   {
     "id": "arsene",
@@ -441,17 +456,24 @@ module.exports = [
       "Estate & wealth transfer planning"
     ],
     "languages": "French, English",
-    "years": "10",
+    "years": "22 years",
     "credentials": "Avocat à la Cour (French bar)",
     "membership": "Not specified",
-    "consultFee": "60 min €630 + VAT",
-    "consultProcess": "The initial consultation is up to 60 minutes, charged at €1,500 + VAT.",
-    "whatToBring": "Equity documents (grant agreements, plan summaries, vesting schedules, recent statements), recent tax returns, a list of countries you've lived or worked in with dates, any existing advisors or structures, and your key questions and deadlines.",
+    "consultFee": "60 min EUR 630 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
+    "whatToBring": "Equity documents (grant agreements, plan summaries, vesting schedules, recent statements), recent tax returns, a list of countries you’ve lived or worked in with dates, any existing advisors or structures, and your key questions and deadlines.",
     "busySeason": "Not specified",
-    "responseTime": "1-2 weeks",
+    "responseTime": "1–2 weeks",
     "pricingNote": "Fees are scoped on a case by case basis, and agreed upon with the member in writing before services begin.",
     "website": "https://arsene-taxand.com/en/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age",
+    "pricingItems": [
+      {
+        "name": "Hourly rate",
+        "fee": "EUR 630/hour + VAT"
+      }
+    ]
   },
   {
     "id": "yasuda",
@@ -471,53 +493,16 @@ module.exports = [
       "Business ownership / self-employment"
     ],
     "languages": "Japanese, English",
-    "years": "Not specified",
+    "years": "20+ years",
     "credentials": "Japanese Certified Public Accountant (CPA), Japanese Certified Public Tax Accountant (Zeirishi)",
     "membership": "Not specified",
     "consultFee": "60 min JPY 40,000",
     "consultProcess": "Consultations are paid, at JPY 40,000 per hour.",
-    "whatToBring": "A summary of your tax questions, nationality, Japan arrival/departure dates and residency history, types and countries of income, and any relevant prior tax returns or income statements. Complete the firm's online questionnaire before requesting a quote.",
+    "whatToBring": "A summary of your tax questions, nationality, Japan arrival/departure dates and residency history, types and countries of income, and any relevant prior tax returns or income statements. Complete the firm’s online questionnaire before requesting a quote.",
     "busySeason": "Not specified",
     "responseTime": "1 week",
     "pricingNote": "Fixed fees are quoted individually based on scope and complexity. Individual income tax return preparation is approximately JPY 300,000 per year. Japanese consumption tax is additional.",
     "website": "https://yasuda-accounting.com/en/",
-    "privacyPolicy": "Not specified"
-  },
-  {
-    "id": "kayano",
-    "airtableId": "recmGSWyVfYcyOG8g",
-    "name": "Kayano International Tax and Accounting Office",
-    "country": "Japan",
-    "flag": "🇯🇵",
-    "city": "Shinagawa, Tokyo",
-    "status": "Active",
-    "about": "Kayano International Tax Accounting Office was founded in October 2020 by representative Takaaki Kayano, based in Shinagawa Ward, Tokyo. Prior to founding the firm, Kayano spent over 7 years at EY's Japan tax practice (New Japan Ernst & Young Tax Accountants Corporation, now EY Tax Accountants Corporation), working in both the Tokyo and Düsseldorf offices. His work there included corporate and consumption tax filing for foreign companies and consolidated tax filing for major Japanese companies, including on-site support at a major Dutch semiconductor manufacturer and a major Japanese telecommunications company; he left EY at the level of Manager. The firm operates as a fully remote practice and is affiliated with Higashi Gotanda Accounting LLC and ESNext Tax Accountants Corporation, with an advisor attorney (Hirotoshi Kaino, Sakai Law Office) for matters requiring legal coordination.",
-    "idealClient": "Members with equity compensation (RSUs, ESPPs, stock options) who are Japan tax residents or non-permanent residents, especially those with cross-border complexity given the representative's direct EY background in cross-border corporate and individual tax work. Also a good fit for foreign nationals in Japan needing English-language support, and members with inheritance, gift, or estate tax needs requiring coordination with affiliated legal partners.",
-    "services": [
-      "Equity Compensation - RSU/ISO/NSO/ESPP",
-      "Cross-border / expatriate tax",
-      "Annual tax filing",
-      "Equity Compensation - Multi-jurisdiction equity apportionment",
-      "Foreign account reporting"
-    ],
-    "languages": "English, Japanese",
-    "years": "15",
-    "credentials": "Not specified",
-    "credentialsList": [
-      "Licensed Tax Accountant (Zeirishi), registered with the Tokyo Certified Public Tax Accountants Association, Shinagawa Branch",
-      "Nissho Bookkeeping Examination, Level 1",
-      "Licensed Real Estate Agent",
-      "Certified Management Innovation Support Institution (認定経営革新等支援機関)",
-      "TOEIC score: 825"
-    ],
-    "membership": "Tokyo Certified Public Tax Accountants Association, Shinagawa Branch",
-    "consultFee": "30 min JPY 20,000",
-    "consultProcess": "Consultations are paid, at JPY 20,000 plus consumption tax per 30 minutes; individual tax return preparation starts at JPY 180,000 plus consumption tax.",
-    "whatToBring": "Not specified",
-    "busySeason": "Mid Feb – mid March – tax filing.",
-    "responseTime": "< 1 week",
-    "pricingNote": "Not specified",
-    "website": "https://www.kyno-office.com/en/",
     "privacyPolicy": "Not specified"
   },
   {
@@ -537,17 +522,47 @@ module.exports = [
       "Business ownership / self-employment"
     ],
     "languages": "English, Korean",
-    "years": "50",
+    "years": "50 years",
     "credentials": "Certified Tax Accountant, passed EA Part I",
     "membership": "Not specified",
-    "consultFee": "Not specified",
+    "consultFee": "30 min KRW 200,000 + VAT",
+    "consultFeeNote": "Free initial call",
     "consultProcess": "Initial consultations are free.",
     "whatToBring": "Documents proving your current situation.",
     "busySeason": "Not specified",
     "responseTime": "1 week",
-    "pricingNote": "KRW 200,000 for 30 minutes.",
+    "pricingNote": "Not specified",
     "website": "https://taxmile.oopy.io/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "pricingItems": [
+      {
+        "name": "General tax consultation",
+        "fee": "KRW 200,000 per 30 min + VAT"
+      },
+      {
+        "name": "English written report (add-on to a consultation)",
+        "fee": "KRW 500,000 per report + VAT"
+      },
+      {
+        "name": "19% flat tax rate advisory (foreign employees)",
+        "fee": "KRW 200,000 + VAT",
+        "description": "Advice on eligibility and application."
+      },
+      {
+        "name": "Income tax filing (salary income)",
+        "fee": "from KRW 500,000 + VAT",
+        "description": "KRW 500,000 for salary income up to KRW 100 million; KRW 1,000,000 up to KRW 300 million; negotiable above that."
+      },
+      {
+        "name": "Overseas financial account reporting",
+        "fee": "KRW 500,000 + VAT"
+      },
+      {
+        "name": "Property-related taxes",
+        "fee": "0.2–0.5% of asset value + VAT",
+        "description": "Capital gains and gift tax: 0.2% of asset value (minimum KRW 500,000). Inheritance tax: 0.5% of asset value (minimum KRW 1,000,000)."
+      }
+    ]
   },
   {
     "id": "blg",
@@ -557,8 +572,8 @@ module.exports = [
     "flag": "🇨🇦",
     "city": "Montreal · Ottawa · Toronto · Calgary · Vancouver",
     "status": "Under Review",
-    "about": "Borden Ladner Gervais LLP (BLG) is a Canadian full-service law firm whose roots date to 1823; the present national firm was formed in 2000 through the merger of five Canadian law firms. BLG has more than 800 lawyers across five Canadian cities and is nationally recognized across numerous practice areas, including 13 ranked departments in the 2027 Chambers Global guide. Its Private Client & Family Office Advisory Group advises high-net-worth individuals, executives, private business owners, family offices, trusts and foundations on tax and estate planning, wealth preservation, business succession, trusts, and multi-jurisdictional assets and family situations.",
-    "idealClient": "BLG is best suited to high-net-worth individuals, executives, private business owners, family offices, trusts and foundations with complex Canadian or cross-border tax, estate and succession-planning needs. Its Private Client Group handles domestic, cross-border and international planning, including multi-jurisdictional assets and family situations, trusts, corporate reorganizations, foundations and charitable planning.",
+    "about": "Borden Ladner Gervais LLP (BLG) is a Canadian full-service law firm with roots dating to 1823; the present national firm was formed in 2000 through the merger of five Canadian firms. It has 800+ lawyers across five Canadian cities and 13 departments ranked in the 2027 Chambers Global guide. Its Private Client & Family Office Advisory Group advises high-net-worth individuals, executives, private business owners, family offices, trusts, and foundations on tax and estate planning, wealth preservation, business succession, trusts, and multi-jurisdictional assets and family situations.",
+    "idealClient": "High-net-worth individuals, executives, private business owners, family offices, trusts, and foundations with complex Canadian or cross-border tax, estate, and succession-planning needs, including domestic, cross-border, and international planning, multi-jurisdictional assets and family situations, trusts, corporate reorganizations, foundations, and charitable planning. BLG also has a dedicated international tax practice advising on inbound and outbound structures, withholding tax, transfer pricing, and other cross-border matters.",
     "services": [
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Equity Compensation - Multi-jurisdiction equity apportionment",
@@ -570,7 +585,7 @@ module.exports = [
       "Foreign account reporting"
     ],
     "languages": "French, English",
-    "years": "Since 1823",
+    "years": "200+ years",
     "credentials": "Not specified",
     "credentialsList": [
       "Québec lawyers",
@@ -581,13 +596,14 @@ module.exports = [
     ],
     "membership": "Not specified",
     "consultFee": "60 min CAD 760 + sales taxes",
-    "consultProcess": "The initial consultation is typically complimentary and begins with a 30-minute call to discuss the client's needs, objectives, and priorities.",
+    "consultProcess": "The initial consultation is typically complimentary and begins with a 30-minute call to discuss the client’s needs, objectives, and priorities.",
     "whatToBring": "A high-level overview of your personal, family, and business circumstances, principal assets and ownership structures, any relevant trusts or corporations, the jurisdictions involved, and your key tax, estate, succession, or wealth-planning objectives.",
     "busySeason": "Not specified",
     "responseTime": "> 1 week",
     "pricingNote": "Consultations are CAD 760 per 60 minutes + sales taxes. Fees are generally billed on an hourly basis, based on the time spent providing legal services.",
     "website": "https://www.blg.com/",
-    "privacyPolicy": "https://www.blg.com/en/about-us/privacy"
+    "privacyPolicy": "https://www.blg.com/en/about-us/privacy",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "alsefin",
@@ -597,7 +613,7 @@ module.exports = [
     "flag": "🇪🇸",
     "city": "Calle Hermosilla 119, 1º C, 28009 Madrid",
     "status": "Active",
-    "about": "Álvaro Luche Sánchez has more than 25 years of professional experience in tax, accounting, and payroll/employment advisory services, having worked for various companies and professionals. He founded his own firm ten years ago.",
+    "about": "Álvaro Luche Sánchez has 25+ years of professional experience in tax, accounting, and payroll/employment advisory services, having worked for various companies and professionals. He founded his own firm ten years ago.",
     "idealClient": "The firm serves a wide variety of clients, which gives it a broad tax perspective: companies, self-employed professionals, and individuals who, throughout their lives, need specialized advice and the filing of all types of taxes.",
     "services": [
       "Annual tax filing",
@@ -607,14 +623,15 @@ module.exports = [
     ],
     "languages": "Spanish, English",
     "years": "25+ years",
-    "credentials": "Tax, accounting, and employment adviser with more than 25 years of practice (in Spain there is no mandatory license or official title for tax advisers); accredited Transport Manager (Gestor de Transportes) of the Community of Madrid",
+    "credentials": "Tax, accounting, and employment advisor with 25+ years of practice (in Spain there is no mandatory license or official title for tax advisors)",
     "membership": "Collaboration agreements with the Spanish State Tax Agency (Agencia Tributaria, AEAT) and with several regional governments: Madrid, Andalusia, Castilla-La Mancha, Castilla y León, etc",
-    "consultFee": "60 min €150 + VAT",
-    "consultProcess": "Initial contact is by email, to understand the client's needs in as much detail as possible, followed by a phone call, a meeting at the firm's office, or a video call (e.g., Zoom).",
-    "whatToBring": "Your questions or needs and, where possible, any documentation related to the enquiry.",
+    "consultFee": "60 min EUR 150 + VAT",
+    "consultFeeNote": "Initial call usually free",
+    "consultProcess": "Initial contact is by email, to understand the client’s needs in as much detail as possible, followed by a phone call, an office meeting, or a video call (e.g., Zoom). The first contact is usually free of charge.",
+    "whatToBring": "Your questions or needs and, where possible, any documentation related to the inquiry.",
     "busySeason": "The first half of January, April, July and October (quarterly tax return deadlines).",
     "responseTime": "> 1 week",
-    "pricingNote": "The first contact is usually free, since the reason for the enquiry is not known in advance; the standard rate is €150 + VAT.",
+    "pricingNote": "The standard rate is EUR 150 + VAT.",
     "website": "https://www.alsefinyasociados.es/",
     "privacyPolicy": "Not specified"
   },
@@ -626,7 +643,7 @@ module.exports = [
     "flag": "🇩🇪",
     "city": "Bonn · Frankfurt · München · Düsseldorf · Berlin · Hamburg · Stuttgart",
     "status": "Active",
-    "about": "Flick Gocke Schaumburg was founded in Bonn in 1972 and is Germany's largest independent tax-focused law firm, with around 490 professionals across seven offices nationwide. The firm is widely recognized as a market leader in German tax law, combining expertise in tax and business law with auditing, business valuation, transactions, and compliance. Its leading position is reflected in top-tier rankings by leading legal directories, including Chambers and Partners, The Legal 500, and International Tax Review, across tax law and related practice areas such as private wealth, succession planning, and tax disputes. The firm also advises corporations, family-owned businesses, high-net-worth individuals, and non-profit organizations. Internationally, Flick Gocke Schaumburg is the exclusive German member of Taxand, a global network of independent tax advisory firms. Together with its international partner firms, this enables the firm to advise on complex cross-border tax and legal matters.",
+    "about": "Flick Gocke Schaumburg was founded in Bonn in 1972 and is Germany’s largest independent tax-focused law firm, with around 490 professionals across seven offices. It is widely recognized as a market leader in German tax law, combining tax and business law with auditing, valuation, and compliance, and holds top-tier rankings from Chambers and Partners, The Legal 500, and International Tax Review, including for private wealth, succession planning, and tax disputes. It advises corporations, family-owned businesses, high-net-worth individuals, and non-profit organizations, and is the exclusive German member of Taxand, a global network of independent tax advisory firms.",
     "idealClient": "The firm best serves private clients, corporations, family-owned businesses, financial investors, and nonprofit or public-sector institutions with complex German and cross-border tax and legal matters.",
     "services": [
       "Cross-border / expatriate tax",
@@ -639,17 +656,18 @@ module.exports = [
       "Business ownership / self-employment"
     ],
     "languages": "German, English, French",
-    "years": "50+",
+    "years": "50+ years",
     "credentials": "German-qualified lawyers (Rechtsanwälte), tax advisors (Steuerberater), and auditors (Wirtschaftsprüfer)",
-    "membership": "Relevant German and regional professional bodies, including the competent regional Bars (Rechtsanwaltskammer), the competent regional Chambers of Tax Advisors (Steuerberaterkammer), and, where applicable, the Chamber of Auditors (Wirtschaftsprüferkammer)",
-    "consultFee": "60 min €750 + VAT",
-    "consultProcess": "The initial consultation is paid, at a €500 + VAT lump sum, and typically lasts 30–60 minutes.",
+    "membership": "Regional Bar (Rechtsanwaltskammer), Chamber of Tax Advisors (Steuerberaterkammer), and, where applicable, Chamber of Auditors (Wirtschaftsprüferkammer)",
+    "consultFee": "60 min EUR 750 + VAT",
+    "consultProcess": "The initial consultation is paid and typically lasts 30–60 minutes.",
     "whatToBring": "Relevant documents and background information, including your employment contract, equity compensation agreement, and last income tax assessments and declarations; an overview of the jurisdictions in which you have (or in the last 5 years had) tax liabilities; an overview of your assets and income; your family situation (including any prenup); any position in a trust, foundation, personal company, or partnership; and any intended wealth transfers.",
     "busySeason": "Not specified",
     "responseTime": "> 1 week",
-    "pricingNote": "Billed on an hourly basis, from €300 (juniors) to €750 (partners) + VAT.",
+    "pricingNote": "Billed on an hourly basis, from EUR 300 (juniors) to EUR 750 (partners) + VAT.",
     "website": "https://www.fgs.de/",
-    "privacyPolicy": "https://www.fgs.de/en/data-protection-notice"
+    "privacyPolicy": "https://www.fgs.de/en/data-protection-notice",
+    "yearsLabel": "Firm age"
   },
   {
     "id": "yulchon",
@@ -675,12 +693,541 @@ module.exports = [
     "credentials": "Lawyers and certified public accountants (C.P.A.s)",
     "membership": "Not specified",
     "consultFee": "60 min USD 730",
-    "consultProcess": "The initial consultation is 60 minutes, charged at USD 1,500.",
+    "consultProcess": "The initial consultation is 60 minutes.",
     "whatToBring": "Not specified",
     "busySeason": "Not specified",
-    "responseTime": "1-2 weeks",
+    "responseTime": "1–2 weeks",
     "pricingNote": "Billed on an hourly basis, starting at USD 560 per hour.",
     "website": "https://www.yulchon.com/",
-    "privacyPolicy": "Not specified"
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age"
+  },
+  {
+    "id": "taxpartner",
+    "airtableId": "recefbwLJDnsoTYwl",
+    "name": "Tax Partner AG",
+    "country": "Switzerland",
+    "flag": "🇨🇭",
+    "city": "Zurich",
+    "status": "Active",
+    "about": "Tax Partner is an independent Swiss tax firm based in Zurich, specializing in Swiss and international tax law since its founding in 1997. Its 18 partners and counsel and a team of 38 tax experts (lawyers, jurists, and economists) advise Swiss and multinational companies as well as private individuals. It is the Swiss member of Taxand, a global tax network.",
+    "idealClient": "Individuals and families with Swiss tax and international ties (relocations to Switzerland, equity compensation and IPO-related questions, wealth and succession planning), owner-managed international businesses, and cross-border reorganizations.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Annual tax filing",
+      "Business ownership / self-employment"
+    ],
+    "languages": "German, English, French, Italian",
+    "years": "29 years",
+    "credentials": "Swiss Certified Tax Experts (dipl. Steuerexperten), attorneys",
+    "membership": "EXPERTsuisse (Swiss Chamber of Tax Experts), Taxand member firm",
+    "consultFee": "60 min CHF 400 + VAT",
+    "consultProcess": "Paid initial consultation of approx. 45 minutes, by phone or video. Hourly rates depend on seniority.",
+    "whatToBring": "A short summary of your situation (family, income, and wealth), prior tax returns and assessments (last 2–3 years), relevant contracts (employment, equity plans, share or property documents), and any pending deadlines or letters from tax authorities.",
+    "busySeason": "20 December–10 January",
+    "responseTime": "1 week",
+    "pricingNote": "Not specified",
+    "pricingItems": [
+      {
+        "name": "Partner",
+        "fee": "CHF 650/hour"
+      },
+      {
+        "name": "Senior Advisor",
+        "fee": "CHF 400–550/hour"
+      },
+      {
+        "name": "Advisor",
+        "fee": "CHF 200–400/hour"
+      }
+    ],
+    "website": "https://taxpartner.ch/",
+    "privacyPolicy": "Not specified",
+    "yearsLabel": "Firm age"
+  },
+  {
+    "id": "hartung",
+    "airtableId": "recqOWeuePDGcNXgI",
+    "name": "ETL Hartung Consulting GmbH Steuerberatungsgesellschaft",
+    "country": "Germany",
+    "flag": "🇩🇪",
+    "city": "Düsseldorf (main office) · Hamburg",
+    "status": "Active",
+    "about": "ETL Hartung Consulting was founded in 2000 and has a core team of about 50 employees. It provides tax services and consulting to domestic and international companies of various legal structures, as well as to individuals. The firm belongs to the ETL Group and the TIAG network.",
+    "idealClient": "Individuals with matters ranging from purely domestic to high-complexity cross-border cases.",
+    "services": [
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Business ownership / self-employment",
+      "Foreign account reporting"
+    ],
+    "languages": "German, English, Japanese, Chinese, Greek, Turkish",
+    "years": "27 years",
+    "yearsLabel": "Firm age",
+    "credentials": "German Chartered Tax Advisor",
+    "membership": "Steuerberaterkammer (Chamber of Tax Advisors)",
+    "consultFee": "60 min EUR 285 + VAT",
+    "consultProcess": "Paid initial consultation of about one hour. Tax return fees are regulated by German law and set out in a service and fee proposal that the client signs before work begins.",
+    "whatToBring": "A short summary of the case. For tax returns, the firm provides a questionnaire.",
+    "busySeason": "Not specified",
+    "responseTime": "1 week",
+    "pricingNote": "Not specified",
+    "pricingItems": [
+      {
+        "name": "Special tax services",
+        "fee": "EUR 285/hour + VAT"
+      },
+      {
+        "name": "Tax returns",
+        "fee": "Based on income",
+        "description": "Fees follow the German Tax Advisor Fee Ordinance (StBVV) and scale with income."
+      },
+      {
+        "name": "Additional income (e.g., rental)",
+        "fee": "Varies",
+        "description": "Requires a separate form."
+      }
+    ],
+    "website": "https://www.hartung-consulting.com",
+    "privacyPolicy": "https://www.hartung-consulting.com/datenschutz"
+  },
+  {
+    "id": "blickrothenberg",
+    "airtableId": "rec5osjlFEqAfpvt0",
+    "name": "Blick Rothenberg Limited",
+    "country": "United Kingdom",
+    "flag": "🇬🇧",
+    "city": "London",
+    "status": "Under Review",
+    "about": "Blick Rothenberg is a tax, accounting and business advisory firm established in 1945, with over 80 partners and directors and more than 800 staff. It provides partner-led advice tailored to each client’s circumstances. As part of the Azets Group and a member of Allinial Global, a network of more than 272 firms in 110+ countries, it combines relationship-led service with international reach.",
+    "idealClient": "Employees based in the UK, or moving to or from the UK, with equity compensation (including option agreements), liquidity-event questions, estate planning and wealth transfer needs, and cross-border personal tax matters.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment"
+    ],
+    "languages": "English",
+    "years": "80+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Not specified",
+    "membership": "Not specified",
+    "consultFee": "60 min GBP 126–908 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "December – January",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "UK tax returns",
+        "fee": "from GBP 2,500 + VAT",
+        "description": "Where UK tax compliance is required."
+      },
+      {
+        "name": "Hourly rates",
+        "fee": "GBP 126–908/hour + VAT",
+        "description": "The rate depends on seniority, from Associate to Partner."
+      }
+    ],
+    "pricingNote": "Fees are based on hourly rates and scoped case by case, and anticipated fees are agreed in writing before services begin. All fees exclude VAT and a 2.86% Compliance and Administrative Fee.",
+    "website": "https://www.blickrothenberg.com/",
+    "privacyPolicy": "https://www.blickrothenberg.com/privacy-policy/",
+    "credentialsList": [
+      "Chartered Tax Advisor (CIOT)",
+      "Chartered Accountant (ICAEW)",
+      "Society of Trust and Estate Practitioners (STEP)",
+      "Enrolled Agent (for US tax returns)"
+    ]
+  },
+  {
+    "id": "tokyoadvisory",
+    "airtableId": "recGOi8t15BtnSDtU",
+    "name": "Yamamoto Mamiko CPA Accounting Office / Tokyo Advisory Co., Ltd.",
+    "country": "Japan",
+    "flag": "🇯🇵",
+    "city": "Tokyo (Roppongi Hills Mori Tower, Minato-ku)",
+    "status": "Active",
+    "about": "Tokyo Advisory is a bilingual (Japanese/English) tax practice in Tokyo, led by Mamiko Yamamoto, a Japanese tax accountant (zeirishi), Japanese CPA and US CPA. It focuses on Japan–US cross-border individual tax, including Japanese and US returns, equity compensation from overseas employers, overseas asset reporting, and tax residency on arrival or departure. Client engagements are with Yamamoto Mamiko CPA Accounting Office, a licensed zeirishi practice.",
+    "idealClient": "Japan-resident employees of US and other overseas companies with RSUs, stock options or ESPP, including liquidity events; US citizens and green card holders in Japan filing in both countries; people with overseas accounts or assets to report; and those moving to or leaving Japan.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Foreign account reporting",
+      "Business ownership / self-employment"
+    ],
+    "languages": "Japanese, English",
+    "years": "20 years",
+    "credentials": "Not specified",
+    "credentialsList": [
+      "Certified Public Tax Accountant (Zeirishi), Japan",
+      "Certified Public Accountant, Japan",
+      "US CPA (Washington State)",
+      "Gyoseishoshi (Certified Administrative Procedures Legal Specialist), Japan"
+    ],
+    "membership": "Tokyo Certified Public Tax Accountants’ Association; Japanese Institute of Certified Public Accountants (JICPA)",
+    "consultFee": "60 min JPY 30,000",
+    "consultProcess": "Paid 60-minute consultation, in person (Tokyo) or online.",
+    "whatToBring": "Recent Japanese and US tax returns, your withholding slip, equity award documents and brokerage statements, your Japan arrival and departure dates and visa status, a list of overseas accounts, and details of any upcoming liquidity event.",
+    "busySeason": "February – mid-March (Japanese tax returns, due March 15) and early to mid-April (US filing deadline). Availability is also limited in late December – early January, Golden Week and mid-August.",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Consultation (per 60-min session)",
+        "fee": "JPY 30,000 per 60-min session"
+      },
+      {
+        "name": "Monthly advisory",
+        "fee": "JPY 30,000/month",
+        "description": "About 3 queries per month, by email or chat."
+      },
+      {
+        "name": "Tax planning report (Japanese/English)",
+        "fee": "JPY 100,000–300,000"
+      },
+      {
+        "name": "Japanese income tax return (employment, equity, capital gains)",
+        "fee": "JPY 109,091–227,273"
+      }
+    ],
+    "pricingNote": "Fixed fee per engagement, quoted in writing after the initial consultation.",
+    "website": "https://www.tokyoadvisory.com/en",
+    "privacyPolicy": "https://www.tokyoadvisory.com/en/privacy-policy"
+  },
+  {
+    "id": "withers",
+    "airtableId": "recyoHEK96fm2taei",
+    "name": "Withers KhattarWong LLP",
+    "country": "Singapore",
+    "flag": "🇸🇬",
+    "city": "Singapore",
+    "status": "Active",
+    "about": "Withers KhattarWong is a full-service Singapore law firm established in 1974, with more than 180 people including over 20 partners, making it one of the 10 largest law firms in Singapore. It is the Singapore member of the international law firm Withers and of Taxand, and is recognized by Chambers and The Legal 500 for its tax and private wealth practice. Its Singapore tax team includes lawyers qualified in Singapore, the UK and the US.",
+    "idealClient": "Internationally mobile individuals and families, founders, family offices and privately held businesses with complex tax needs, especially where assets, investments, businesses or family members span multiple jurisdictions. The firm also has particular experience structuring single family offices in Singapore, alongside cross-border tax and estate planning, trusts, succession and investment structuring.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Annual tax filing",
+      "Cross-border / expatriate tax",
+      "Foreign account reporting",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment"
+    ],
+    "languages": "English, Mandarin, French, Spanish, Italian, Arabic, Hindi, Turkish, Russian",
+    "years": "30 years",
+    "credentials": "Advocates & Solicitors in Singapore, with lawyers also qualified in the UK and US",
+    "membership": "Not specified",
+    "consultFee": "60 min from SGD 400",
+    "consultFeeNote": "Initial call generally free (60 min)",
+    "consultProcess": "The initial one-hour consultation, to gather background facts and scope the work, is generally free of charge.",
+    "whatToBring": "Full background facts and relevant documents. To speed up an engagement, certified true copies of your passport and proof of address are helpful.",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "SGD 400–1,255/hour",
+        "description": "Billed by the hour. The rate depends on seniority, from junior associates to the lead partner."
+      }
+    ],
+    "pricingNote": "Not specified",
+    "website": "https://www.withersworldwide.com/en-gb/locations/asia-pacific/singapore",
+    "privacyPolicy": "https://www.withersworldwide.com/en-gb/legal-and-regulatory/data-privacy"
+  },
+  {
+    "id": "fkks",
+    "airtableId": "recaPMJHFoZZ23cRz",
+    "name": "Frankfurt Kurnit Klein & Selz",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "New York, NY · Los Angeles, CA",
+    "status": "Under Review",
+    "about": "Frankfurt Kurnit Klein & Selz is a law firm serving clients for more than 40 years, with offices in New York and Los Angeles. Its Tax Group and Best Lawyers-ranked Estate Planning & Administration Group advise individuals, business owners and executives on estate, gift and income tax planning, trusts and retirement assets. They also handle estate and trust administration and represent clients in tax audits and disputes.",
+    "idealClient": "US members with complex or high-net-worth needs, such as estate, gift and income tax planning, trusts and wealth transfer, executive compensation, and business ownership or succession planning.",
+    "services": [
+      "Estate & wealth transfer planning",
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Business ownership / self-employment",
+      "Cross-border / expatriate tax"
+    ],
+    "languages": "English",
+    "years": "40+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Attorneys (J.D.); the Tax Group is led by an attorney with an LL.M. in Taxation",
+    "membership": "Admitted in New York; ABA and New York State Bar Association Tax Sections",
+    "consultFee": "60 min from USD 675",
+    "consultFeeNote": "Initial call typically free (20–30 min)",
+    "consultProcess": "Initial consultations are typically free and run 20–30 minutes. Advice is limited before the firm is formally engaged.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingNote": "Rates may change with advance notice and apply going forward.",
+    "website": "https://fkks.com",
+    "privacyPolicy": "https://fkks.com/privacy-policy",
+    "pricingItems": [
+      {
+        "name": "Partners and counsel",
+        "fee": "USD 875–1,375/hour"
+      },
+      {
+        "name": "Estate Planning & Administration attorneys",
+        "fee": "USD 575–1,300/hour"
+      },
+      {
+        "name": "Associates",
+        "fee": "USD 500–725/hour"
+      },
+      {
+        "name": "Clerks and paralegals",
+        "fee": "USD 325–575/hour"
+      }
+    ]
+  },
+  {
+    "id": "maisto",
+    "airtableId": "recoLlXr0g3ECJs0C",
+    "name": "Maisto e Associati",
+    "country": "Italy",
+    "flag": "🇮🇹",
+    "city": "Milan · Rome",
+    "status": "Active",
+    "about": "Maisto e Associati is an independent Italian law firm specializing in tax, established in 1991 and now with over 70 members. The firm and several of its partners are ranked tier 1 in Italian tax by Chambers & Partners, The Legal 500 and International Tax Review. Several members have international tax experience from working in the Netherlands, the US and the UK, and the firm has been a Taxand member in Italy since July 2024.",
+    "idealClient": "Members with equity across multiple jurisdictions, complex incentive plans, and high-complexity cross-border cases.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Equity Compensation - Multi-jurisdiction equity apportionment",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment"
+    ],
+    "languages": "Italian, English",
+    "years": "35 years",
+    "yearsLabel": "Firm age",
+    "credentials": "Italian lawyers (Avvocati) admitted to the Bar, several with LL.M. degrees in tax; some members are Chartered Accountants (Dottori Commercialisti)",
+    "membership": "Ordine degli Avvocati (Italian Bar)",
+    "consultFee": "60 min EUR 500 + VAT",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Partner",
+        "fee": "EUR 650/hour + VAT"
+      },
+      {
+        "name": "Senior Associate",
+        "fee": "EUR 500/hour + VAT"
+      },
+      {
+        "name": "Associate",
+        "fee": "EUR 350/hour + VAT"
+      }
+    ],
+    "pricingNote": "Scope and fees are agreed on a case by case basis.",
+    "website": "https://maisto.it/en/index.html",
+    "privacyPolicy": "https://www.maisto.it/en/cookies-politics.html"
+  },
+  {
+    "id": "williamfry",
+    "airtableId": "recrYQapYtoUjSwgl",
+    "name": "William Fry",
+    "country": "Ireland",
+    "flag": "🇮🇪",
+    "city": "Dublin (head office) · Cork",
+    "status": "Under Review",
+    "about": "William Fry is an Irish law firm founded in 1847, with over 350 legal and tax professionals. Its tax department, William Fry Tax Advisors, brings tax lawyers, accountants and consultants into one team and advises individuals on private client and personal tax planning, employee benefits and remuneration, and personal tax compliance. It is the Taxand member firm in Ireland.",
+    "idealClient": "Ireland-resident employees with equity compensation, personal tax planning or cross-border tax questions, including cases that need combined legal and tax advice.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Annual tax filing"
+    ],
+    "languages": "English",
+    "years": "175+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Solicitors, Chartered Accountants and Chartered Tax Advisers (CTA)",
+    "membership": "Law Society of Ireland; Irish Tax Institute; Chartered Accountants Ireland",
+    "consultFee": "60 min from EUR 500 + VAT",
+    "consultFeeNote": "Free initial call (up to 60 min)",
+    "consultProcess": "There is no charge for an initial consultation of up to 60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "EUR 260–695/hour + VAT",
+        "description": "The rate depends on seniority, from trainee to partner, and includes a 10% referral discount on 2026 standard rates."
+      }
+    ],
+    "pricingNote": "Follow-up consultations, written memos, tax return preparation and other services are priced per engagement.",
+    "website": "https://www.williamfry.com/practice-area/tax/",
+    "privacyPolicy": "https://www.williamfry.com/privacy-statement/"
+  },
+  {
+    "id": "ghj",
+    "airtableId": "reca3jb3bid7skZMS",
+    "name": "GHJ (Green Hasson & Janks LLP)",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Los Angeles (headquarters)",
+    "status": "Under Review",
+    "about": "GHJ (Green Hasson & Janks LLP) is a national advisory, tax and accounting firm founded in 1953 and headquartered in Los Angeles, and an independent member of the HLB international network. Its High Net Worth Practice provides year-round tax planning and preparation for individuals, trusts and estates, including equity compensation, estate and gift tax, multi-state residency, charitable giving and business exit planning. It was named a 2026 Best of the Best CPA Firm by INSIDE Public Accounting and ranked #11 among Los Angeles County accounting firms by the Los Angeles Times.",
+    "idealClient": "US members with complex individual tax needs, such as significant equity compensation, multi-state residency, estate and trust planning, or a business sale, who want ongoing planning as well as return preparation.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment",
+      "Annual tax filing"
+    ],
+    "languages": "English",
+    "years": "70+ years",
+    "yearsLabel": "Firm age",
+    "credentials": "Certified Public Accountants (CPA)",
+    "membership": "Independent member of HLB International",
+    "consultFee": "60 min USD 525",
+    "consultProcess": "Fees may be fixed or hourly, depending on the engagement.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1–2 weeks",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "USD 170–875/hour",
+        "description": "The rate depends on seniority, from staff to partner."
+      },
+      {
+        "name": "Individual income tax returns",
+        "fee": "USD 5,000–20,000+",
+        "description": "Depends on complexity."
+      }
+    ],
+    "pricingNote": "Not specified",
+    "website": "https://www.ghjadvisors.com/industries/high-net-worth",
+    "privacyPolicy": "https://www.ghjadvisors.com/privacy-policy"
+  },
+  {
+    "id": "arteo",
+    "airtableId": "recRu8F9pWE33nrPI",
+    "name": "Arteo Law SRL/BV",
+    "country": "Belgium",
+    "flag": "🇧🇪",
+    "city": "Brussels",
+    "status": "Active",
+    "about": "Arteo is a Belgian tax boutique law firm founded in 2020, with about 25 lawyers including 9 partners, several of whom have more than 20 years of experience. It covers Belgian tax law, including personal income tax, estate planning, employee benefits and incentive plans, and tax litigation. It advises only on Belgian tax law, and is a member of the Taxand network for multi-jurisdictional questions.",
+    "idealClient": "Members with Belgian tax questions, such as equity and incentive plans, estate planning and cross-border situations. For multi-jurisdictional questions, Arteo coordinates with foreign Taxand member firms.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning",
+      "Business ownership / self-employment"
+    ],
+    "languages": "French, Dutch, English",
+    "years": "20+ years",
+    "credentials": "Lawyers admitted to the Brussels Bar; the senior partner is also admitted to the Belgian Supreme Court Bar (Cour de cassation)",
+    "membership": "Brussels Bar",
+    "consultFee": "60 min from EUR 300 + VAT",
+    "consultProcess": "Initial calls typically run 30–60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1 week",
+    "pricingItems": [
+      {
+        "name": "Hourly rates",
+        "fee": "EUR 200–500/hour + VAT",
+        "description": "The rate depends on seniority, from junior associate to partner. These are 2026 rates."
+      }
+    ],
+    "pricingNote": "A 5% office expenses charge applies on top of the hourly fees.",
+    "website": "https://www.arteo.law",
+    "privacyPolicy": "https://arteo.law/privacy-en/?lang=en"
+  },
+  {
+    "id": "elp",
+    "airtableId": "rec3aHb6XRTx8rJ3K",
+    "name": "Economic Laws Practice",
+    "country": "India",
+    "flag": "🇮🇳",
+    "city": "Mumbai · Delhi NCR · Bengaluru · Pune · Ahmedabad · Chennai · GIFT City",
+    "status": "Active",
+    "about": "Economic Laws Practice (ELP) is a full-service Indian law firm set up in 2001, with 300+ qualified professionals and offices across India. It is the India member of Taxand, and its tax practice covers direct tax, transfer pricing and indirect tax, including cross-border structuring. ELP is recognized as a top-tier firm by Chambers Global, Legal 500, IFLR1000 and Asia Law Profiles.",
+    "idealClient": "India-resident employees with equity compensation (including ESOPs and RSUs from Indian or foreign employers), cross-border or tax residency questions, or a liquidity event, especially higher-complexity cases that need combined legal and tax advice.",
+    "services": [
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Estate & wealth transfer planning"
+    ],
+    "languages": "English, Hindi",
+    "years": "25 years",
+    "yearsLabel": "Firm age",
+    "credentials": "Lawyers (advocates) and Chartered Accountants",
+    "membership": "Bar Council of India (advocates); Institute of Chartered Accountants of India (chartered accountants)",
+    "consultFee": "60 min EUR 325",
+    "consultProcess": "The initial consultation is up to 60 minutes.",
+    "whatToBring": "Not specified",
+    "busySeason": "Not specified",
+    "responseTime": "1 week",
+    "pricingItems": [
+      {
+        "name": "Hourly rate",
+        "fee": "EUR 325/hour"
+      }
+    ],
+    "pricingNote": "Not specified",
+    "website": "https://elplaw.in/",
+    "privacyPolicy": "https://elplaw.in/data-protection-dashboard-home/"
+  },
+  {
+    "id": "rivettax",
+    "airtableId": "recrFnd31CZCUSy0t",
+    "name": "Rivet Tax",
+    "country": "United States",
+    "flag": "🇺🇸",
+    "city": "Remote (support by Slack, email or Zoom)",
+    "status": "Under Review",
+    "about": "Rivet Tax Inc. is a US tax preparation firm serving tech companies and their founders, executives and employees, with 40+ accountants from Big Four and national firms. It prepares federal and state returns (Form 1040 and 1040-NR) in all 50 states, covering equity compensation, multi-state income, investments, crypto and foreign accounts, and sets quarterly estimated payments.",
+    "idealClient": "US members who need federal and state returns prepared and filed, especially where equity compensation (RSUs, ISOs, NSOs, ESPP), a tender offer or liquidity event, a mid-year move between states, or foreign accounts make the return more complex.",
+    "services": [
+      "Annual tax filing",
+      "Equity Compensation - RSU/ISO/NSO/ESPP",
+      "Equity Compensation - Liquidity event planning (tender offer, IPO)",
+      "Cross-border / expatriate tax",
+      "Foreign account reporting"
+    ],
+    "languages": "English",
+    "years": "Not specified",
+    "credentials": "Certified Public Accountants (CPA) and Enrolled Agents (EA)",
+    "membership": "Not specified",
+    "consultFee": "Fee based: from USD 1,800",
+    "consultFeeNote": "Free initial call",
+    "consultProcess": "Not specified",
+    "whatToBring": "Not specified",
+    "busySeason": "The cutoff for new filings is about 2–3 weeks before April 15. After that, an extension is filed and the return is finished by October 15.",
+    "responseTime": "Under 1 week",
+    "pricingItems": [
+      {
+        "name": "Annual tax filing engagement",
+        "fee": "from USD 1,800",
+        "description": "One flat annual fee covering filing, strategy, advisory and unlimited 30-minute team check-ins."
+      }
+    ],
+    "pricingNote": "Pricing is agreed before work starts. There is no hourly billing.",
+    "website": "https://www.rivet.tax/personal-tax",
+    "privacyPolicy": "https://www.rivet.tax/privacy-policy"
   }
 ];

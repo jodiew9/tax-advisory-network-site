@@ -1200,14 +1200,16 @@ module.exports = [
     "flag": "🇺🇸",
     "city": "Remote (support by Slack, email or Zoom)",
     "status": "Under Review",
-    "about": "Rivet Tax Inc. is a US tax preparation firm serving tech companies and their founders, executives and employees, with 40+ accountants from Big Four and national firms. It prepares federal and state returns (Form 1040 and 1040-NR) in all 50 states, covering equity compensation, multi-state income, investments, crypto and foreign accounts, and sets quarterly estimated payments. Rivet is a tax filing service, not a source of standalone tax advice.",
-    "idealClient": "US members who need federal and state returns prepared and filed, especially where equity compensation (RSUs, ISOs, NSOs, ESPP), a tender offer or liquidity event, a mid-year move between states, or foreign accounts make the return more complex.",
+    "about": "Rivet Tax is a US tax firm serving high-growth companies and their founders, executives and employees, with 50+ ex-Big Four tax professionals who work with clients over Slack. It prepares and files federal and state individual returns (Form 1040 and 1040-NR) in all 50 states, covering equity compensation, multi-state income, investments, crypto and foreign accounts, and calculates quarterly estimated taxes with payment instructions. Engagement is a flat fee with no hourly billing, and year-round proactive strategy and advisory is included.",
+    "idealClient": "Members who need federal and state returns prepared and filed, especially where equity compensation (RSUs, ISOs, NSOs, ESPP), a tender offer or liquidity event, a mid-year move between states, QSBS, or foreign accounts make the return more complex.",
     "services": [
       "Annual tax filing",
       "Equity Compensation - RSU/ISO/NSO/ESPP",
       "Equity Compensation - Liquidity event planning (tender offer, IPO)",
       "Cross-border / expatriate tax",
-      "Foreign account reporting"
+      "Foreign account reporting",
+      "Estimated tax planning",
+      "IRS and state notice resolution"
     ],
     "languages": "English",
     "years": "Not specified",
